@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { socialIcons } from "../data/data";
 import Image from "next/image";
-import Fade from "react-reveal/Fade";
+
 
 function Contact(props) {
   // States for contact form fields
@@ -93,7 +93,6 @@ function Contact(props) {
 
   return (
     <section className="pt-[10vh] pb-10" id={props.id}>
-      <Fade left>
         <h1 className="pb-[2rem] text-3xl sm:text-4xl md:text-6xl text-[#57e0c3] font-serifFont">
           Contact Me
         </h1>
@@ -209,7 +208,6 @@ function Contact(props) {
             })}
           </ul>
         </div>
-      </Fade>
     </section>
   );
 }

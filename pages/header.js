@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Typewriter from "typewriter-effect";
-import Fade from "react-reveal/Fade";
+
 
 function Header(props) {
   return (
@@ -18,18 +17,9 @@ function Header(props) {
         height={750}
       />
       <header>
-        <Fade left>
           <h1 className="text-white align-bottom text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-serifFont">
             Hi, <br /> I'm&nbsp;
             <span className="inline-flex whitespace-pre  text-[#57e0c3]">
-              <Typewriter
-                options={{
-                  strings: ["Tristan!", "glad you're here!"],
-                  autoStart: true,
-                  loop: true,
-                  delay: 100,
-                }}
-              />{" "}
             </span>
           </h1>
           <p className="text-white text-md sm:text-lg md:text-xl tracking-wider font-serifFont font-extralight">
@@ -57,7 +47,6 @@ function Header(props) {
             </button>
             {/* </Link> */}
           </div>
-        </Fade>
       </header>
     </section>
   );

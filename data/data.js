@@ -32,30 +32,78 @@ import {
   SiGithub,
 } from "react-icons/si";
 
-// sidebar menu
+// Navbar menu
 
-const sidebarMenu = [
+const navbarMenuLeft = [
   {
     text: "Home",
     icon: <BsXDiamondFill className="text-[#5fefd0] inline-block" />,
     url: "/",
   },
   {
-    text: "About",
+    text: "Team",
     icon: <BsFillPersonVcardFill className="text-[#5fefd0] inline-block" />,
-    url: "/about",
+    url: "/team",
   },
   {
-    text: "Projects",
+    text: "Services",
     icon: <AiFillProject className="text-[#5fefd0]  inline-block" />,
-    url: "/projects",
+    url: "/services",
+  },
+];
+
+const navbarMenuRight = [
+  {
+    text: "FAQ",
+    icon: <BsXDiamondFill className="text-[#5fefd0] inline-block" />,
+    url: "/faq",
+  },
+  {
+    text: "Resources",
+    icon: <BsFillPersonVcardFill className="text-[#5fefd0] inline-block" />,
+    url: "/resources",
   },
   {
     text: "Contact",
-    icon: <MdOutlineContactMail className="text-[#5fefd0] inline-block" />,
+    icon: <AiFillProject className="text-[#5fefd0]  inline-block" />,
     url: "/contact",
   },
 ];
+
+const navbarMenuHamburger = [
+  {
+    text: "Home",
+    icon: <BsXDiamondFill className="text-[#5fefd0] inline-block" />,
+    url: "/",
+  },
+  {
+    text: "Team",
+    icon: <BsFillPersonVcardFill className="text-[#5fefd0] inline-block" />,
+    url: "/team",
+  },
+  {
+    text: "Services",
+    icon: <AiFillProject className="text-[#5fefd0]  inline-block" />,
+    url: "/services",
+  },
+  {
+    text: "FAQ",
+    icon: <BsXDiamondFill className="text-[#5fefd0] inline-block" />,
+    url: "/faq",
+  },
+  {
+    text: "Resources",
+    icon: <BsFillPersonVcardFill className="text-[#5fefd0] inline-block" />,
+    url: "/resources",
+  },
+  {
+    text: "Contact",
+    icon: <AiFillProject className="text-[#5fefd0]  inline-block" />,
+    url: "/contact",
+  },
+];
+
+
 
 // Social Media Icons
 
@@ -270,4 +318,4 @@ const techStack = [
   },
 ];
 
-export { sidebarMenu, socialIcons, techStack, projectCards };
+export { navbarMenuLeft, navbarMenuRight, navbarMenuHamburger, socialIcons, techStack, projectCards };

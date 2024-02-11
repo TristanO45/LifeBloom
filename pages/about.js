@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { techStack } from "../data/data";
-import Fade from "react-reveal/Fade";
+
 
 function About(props) {
   return (
@@ -13,7 +13,6 @@ function About(props) {
         width={500}
         height={500}
       />
-      <Fade left>
         <h1 className="text-3xl sm:text-4xl md:text-6xl text-[#57e0c3] font-serifFont ">
           About & Skills
         </h1>
@@ -64,7 +63,6 @@ function About(props) {
             );
           })}
         </dev>
-      </Fade>
     </section>
   );
 }
