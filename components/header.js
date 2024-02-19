@@ -9,22 +9,38 @@ function Header(props) {
         <Image
           src="/HeaderImg1.jpg"
           alt="headerimg"
+          className={'image'}
+          fixed={true}
           width={0}
           height={0}
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "100%", height: "" }}          
         />
       </div>
 
       <div
-        className="absolute inset-0 flex justify-center items-center text-center text-white z-10"
+        className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-10"
         style={{ width: "100%" }}
       >
-        <h1 className="absolute text-4xl sm:text-5xl md:text-6xl">
+        <h1 className="absolute pb-10 sm:pb-4 text-4xl sm:text-5xl md:text-6xl">
           Nurturing Growth, Healing Hearts
         </h1>
-        <p className="mt-32 text-lg sm:text-2xl md:text-3xl">
+        <p className="pt-28 sm:pt-52 text-lg sm:text-2xl md:text-3xl">
           Therapy Services in LA and Online in CA
         </p>
+        <div className="pt-2 sm:pt-8">
+          <a href={"/myResume.pdf"} download="Tristan Onfroy Resume">
+            <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-2xl font-medium text-gray-600 bg-white border border-[#57e0c3] rounded-lg shadow-inner group">
+              <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
+              <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
+              <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
+              <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-[#57e0c3] opacity-0 group-hover:opacity-100"></span>
+              <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
+                Team
+              </span>
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );
