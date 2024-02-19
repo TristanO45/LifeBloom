@@ -2,52 +2,30 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-
 function Header(props) {
   return (
-    <section
-      className="flex h-[40rem] sm:h-screen items-center justify-center md:justify-start"
-      id={props.id}
-    >
-      <Image
-        className="absolute right-3 object-cover opacity-40 hidden sm:block"
-        src={"/logoShape.png"}
-        alt="logo"
-        width={750}
-        height={750}
-      />
-      <header>
-          <h1 className="text-white align-bottom text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-serifFont">
-            Hi, <br /> I'm&nbsp;
-            <span className="inline-flex whitespace-pre  text-[#57e0c3]">
-            </span>
-          </h1>
-          <p className="text-white text-md sm:text-lg md:text-xl tracking-wider font-serifFont font-extralight">
-            Full Stack Software Engineer
-          </p>
-          <div className="pt-10">
-            {/* <Link href={"#contact"}> */}
-            <button
-              className="relative px-6 sm:px-12 py-2 sm:py-3 text-lg sm:text-2xl overflow-hidden font-medium text-gray-600 bg-transparent border border-[#57e0c3] rounded-lg group"
-              onClick={(e) => {
-                const target = document.querySelector(`#contact`);
-                if (target) {
-                  target.scrollIntoView();
-                }
-              }}
-            >
-              <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
-              <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
-              <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-              <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-              <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-[#57e0c3] opacity-0 group-hover:opacity-100"></span>
-              <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
-                Contact Me
-              </span>
-            </button>
-            {/* </Link> */}
-          </div>
-      </header>
+    <section className="relative  ">
+      <div className="w-full overflow-hidden">
+        <Image
+          src="/HeaderImg1.jpg"
+          alt="headerimg"
+          width={0}
+          height={0}
+          style={{ width: "100%", height: "auto" }}
+        />
+      </div>
+
+      <div
+        className="absolute inset-0 flex justify-center items-center text-center text-white z-10"
+        style={{ width: "100%" }}
+      >
+        <h1 className="absolute text-4xl sm:text-5xl md:text-6xl">
+          Nurturing Growth, Healing Hearts
+        </h1>
+        <p className="mt-32 text-lg sm:text-2xl md:text-3xl">
+          Therapy Services in LA and Online in CA
+        </p>
+      </div>
     </section>
   );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { techStack } from "../data/data";
 
 
-function About(props) {
+function Mission(props) {
   return (
     <section className="pt-[20vh] sm:pt-[30vh]" id={props.id}>
       <Image
@@ -67,4 +67,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default Mission;

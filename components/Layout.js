@@ -1,17 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Header from "../pages/header";
-import About from "../pages/about";
+import Mission from "../pages/mission";
 import Projects from "../pages/projects";
 import Contact from "../pages/contact";
 
 function Layout({ children }) {
   return (
-    <div className="bg-[#121212]">
+    <div className="bg-white">
       <Navbar />
-      <div className="pt-16">
+      <div className="">
         <Header id="home" />
-        <About id="about" />
+        <Mission id="mission" />
         <Projects id="projects" />
         <Contact id="contact" />
         {children}

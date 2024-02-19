@@ -25,7 +25,7 @@ export default function Navbar() {
   // const [colorChange, setColorChange] = useState("Home");
 
   return (
-    <nav className="fixed top-0 left-0 w-full flex justify-between items-center lg:px-36 px-10 py-6 bg-white text-black z-10">
+    <nav className="sticky top-0 w-full flex justify-between items-center lg:px-36 px-10 py-8 bg-white text-black z-50">
       <div className="flex items-center space-x-4">
         {/* Navbar menu items (visible on desktop) */}
         <ul className="hidden lg:flex space-x-4">
