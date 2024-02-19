@@ -10,10 +10,9 @@ function Header(props) {
           src="/HeaderImg1.jpg"
           alt="headerimg"
           className={'image'}
-          fixed={true}
           width={0}
           height={0}
-          style={{ width: "100%", height: "" }}          
+          style={{ width: "100%", height: "auto" }}          
         />
       </div>
 
