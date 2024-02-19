@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Header(props) {
   return (
-    <section className="relative  ">
+    <section className="relative">
       <div className="w-full overflow-hidden">
         <Image
           src="/HeaderImg1.jpg"
