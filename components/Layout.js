@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./header";
 import Mission from "./mission"
-import Projects from "../pages/projects";
+import RelatedContent from "./relatedContent";
 import Contact from "../pages/contact";
 
 function Layout({ children }) {
@@ -12,7 +12,7 @@ function Layout({ children }) {
       <div className="">
         <Header id="header" />
         <Mission id="mission" />
-        <Projects id="projects" />
+        <RelatedContent id="relatedContent" />
         <Contact id="contact" />
         {children}
       </div>

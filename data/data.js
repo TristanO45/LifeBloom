@@ -124,35 +124,14 @@ const socialIcons = [
 
 // Projects
 
-const projectCards = [
+const ctaCards = [
   {
-    title: "SurfQL",
-    desc: "VS Code tool: visualize GraphQL schema, autocompletion, query development.",
-    stack: "Javascript, Typescript, React, CSS, VSCode Extension API",
-    gitHubUrl: {
-      url: "https://github.com/oslabs-beta/SurfQL",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "https://surfql.com/",
-      icon: <TbWorld size="2rem" />,
-    },
-    imgUrl: "/Surfql-logo (1).jpg",
+    desc: "Request an Appointment",
+    imgUrl: "/RequestApt.jpg",
   },
   {
-    title: "ParQ",
-    desc: "A service for hosting/booking parking spaces",
-    stack:
-      "Javascript, React, CSS, MUI, Node, Express, Jest, MongoDB, Google Maps API",
-    gitHubUrl: {
-      url: "https://github.com/TristanO45/parq",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "",
-      icon: "",
-    },
-    imgUrl: "/Parq.png",
+    desc: "Explore Our Services",
+    imgUrl: "/ExploreServices.jpg",
   },
   {
     title: "HomeGrub",
@@ -168,48 +147,6 @@ const projectCards = [
       icon: "",
     },
     imgUrl: "/HomeGrub.png",
-  },
-  {
-    title: "Memoire Lane",
-    desc: "A site to share your cherished memories.",
-    stack: "Javascript, React, Redux, Node, Express, Jest, MongoDB, CSS, MUI,",
-    gitHubUrl: {
-      url: "https://github.com/TristanO45/MemoriesApp",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "",
-      icon: "",
-    },
-    imgUrl: "/MemoireLaneApp.png",
-  },
-  {
-    title: "MeetMe",
-    desc: "Application for joining and creating meetups",
-    stack: "Javascript, React, CSS, Node, Express, SQL",
-    gitHubUrl: {
-      url: "https://github.com/TristanO45/Meetups",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "",
-      icon: "",
-    },
-    imgUrl: "/MeetMe.png",
-  },
-  {
-    title: "GigHunt",
-    desc: "Mobile App for finding jobs near you",
-    stack: "React Native, Javascript, CSS, RapidAPI ",
-    gitHubUrl: {
-      url: "https://github.com/TristanO45/GigHunt",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "https://expo.dev/@tonfroy/react-native-jobs-app?serviceType=classic&distribution=expo-go",
-      icon: <TbWorld size="2rem" />,
-    },
-    imgUrl: "/React-Native-Job-App.png",
   },
 ];
 
@@ -318,4 +255,4 @@ const techStack = [
   },
 ];
 
-export { navbarMenuLeft, navbarMenuRight, navbarMenuHamburger, socialIcons, techStack, projectCards };
+export { navbarMenuLeft, navbarMenuRight, navbarMenuHamburger, socialIcons, techStack, ctaCards };
