@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <>
       <Head>
-        <title>Tristan Onfroy</title>
+        <title>LifeBloom Therapy</title>
         <meta name="description" content="Manually created Nextjs App" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>

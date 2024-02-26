@@ -103,8 +103,6 @@ const navbarMenuHamburger = [
   },
 ];
 
-
-
 // Social Media Icons
 
 const socialIcons = [
@@ -134,19 +132,8 @@ const ctaCards = [
     imgUrl: "/ExploreServices.jpg",
   },
   {
-    title: "HomeGrub",
-    desc: "Online marketplace to order homemade meals",
-    stack:
-      "Javascript, React, CSS, MUI, Node, Express, Cypress.io, PostgreSQL, Stripe API",
-    gitHubUrl: {
-      url: "https://github.com/TristanO45/HomeGrub",
-      icon: <SiGithub size="2rem" />,
-    },
-    website: {
-      url: "",
-      icon: "",
-    },
-    imgUrl: "/HomeGrub.png",
+    desc: "FAQ",
+    imgUrl: "/FAQ.jpg",
   },
 ];
 
@@ -255,4 +242,11 @@ const techStack = [
   },
 ];
 
-export { navbarMenuLeft, navbarMenuRight, navbarMenuHamburger, socialIcons, techStack, ctaCards };
+export {
+  navbarMenuLeft,
+  navbarMenuRight,
+  navbarMenuHamburger,
+  socialIcons,
+  techStack,
+  ctaCards,
+};

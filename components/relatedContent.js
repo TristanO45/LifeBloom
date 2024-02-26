@@ -5,7 +5,7 @@ import { ctaCards } from "../data/data";
 function RelatedContent(props) {
   return (
     <section
-      className="py-[6vh] px-5 sm:px-14 bg-[#dfd4cc] bg-opacity-80"
+      className="py-[7vh] px-5 sm:px-14 bg-[#dfd4cc] bg-opacity-80"
       id={props.id}
     >
       <div className="flex items-center justify-center">
@@ -15,13 +15,15 @@ function RelatedContent(props) {
             return (
               <div
                 key={index}
-                className=" group overflow-hidden rounded-lg text-center w-full sm:w-auto"
+                className="group overflow-hidden rounded-lg text-center"
               >
-                <div className="transition-transform duration-500 group-hover:scale-110">
-                  <Image src={imgUrl} alt="ctaImg" width={700} height={400} />
+                <div className="relative w-full sm:w-auto aspect-h-4">
+                  <div className="transition-transform duration-500 group-hover:scale-110">
+                    <Image src={imgUrl} alt="ctaImg" width={500} height={100} />
+                  </div>
                 </div>
-                <div className="p-4">
-                  <p className="text-xl sm:text-3xl text-black">{desc}</p>
+                <div className=" text-center pt-8">
+                  <p className="text-xl sm:text-2xl text-black">{desc}</p>
                 </div>
               </div>
             );
