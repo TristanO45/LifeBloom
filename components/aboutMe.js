@@ -4,8 +4,11 @@ import { techStack } from "../data/data";
 
 function AboutMe(props) {
   return (
-    <section className="py-20 px-6 sm:px-14" id={props.id}>
-      <div className="container flex flex-col lg:flex-row items-center">
+    <section
+      className="bg-[#dfd4cc] bg-opacity-80 py-20 px-6 sm:px-14"
+      id={props.id}
+    >
+      <div className="container flex flex-col-reverse lg:flex-row items-center">
         <div className="sm:w-1/2 px-6 pt-8">
           <h1 className="text-3xl sm:text-4xl md:text-6xl text-black font-serifFont">
             Keisha Libbrecht, MFT
@@ -40,7 +43,7 @@ function AboutMe(props) {
         </div>
         <div className="sm:w-1/2 pb-6 sm:pb-0">
           <Image
-            className="rounded-md"
+            className="rounded-sm"
             src={"/keisha.jpg"}
             alt="headshot"
             width={600}
