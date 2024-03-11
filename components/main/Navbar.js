@@ -1,19 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import Image from "next/image";
 import {
   navbarMenuLeft,
   navbarMenuRight,
   navbarMenuHamburger,
   socialIcons,
-} from "../data/data";
+} from "../../data/data";
 
 // Sidebar component
 export default function Navbar() {
   // useRouter hook will be used for navigating each page
-  const router = useRouter();
+  // const router = useRouter();
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -31,10 +31,7 @@ export default function Navbar() {
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuLeft.map((link, index) => (
             <li key={index}>
-              <Link
-                href={`#${link.text.toLowerCase()}`}
-                className="hover:text-[#5fefd0]"
-              >
+              <Link href={link.url} className="hover:text-[#5fefd0]">
                 {link.text}
               </Link>
             </li>
@@ -57,10 +54,7 @@ export default function Navbar() {
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuRight.map((link, index) => (
             <li key={index}>
-              <Link
-                href={`#${link.text.toLowerCase()}`}
-                className="hover:text-[#5fefd0]"
-              >
+              <Link href={link.url} className="hover:text-[#5fefd0]">
                 {link.text}
               </Link>
             </li>
@@ -76,13 +70,10 @@ export default function Navbar() {
 
       {/* Hamburger menu (visible on mobile) */}
       {menuOpen && (
-        <ul className="lg:hidden fixed top-16 right-4 bg-gray-900 p-4 space-y-2">
+        <ul className="lg:hidden fixed top-16 right-4 bg-white p-4 space-y-2">
           {navbarMenuHamburger.map((link, index) => (
             <li key={index}>
-              <Link
-                href={`#${link.text.toLowerCase()}`}
-                className="hover:text-[#5fefd0]"
-              >
+              <Link href={link.url} className="hover:text-[#5fefd0]">
                 {link.text}
               </Link>
             </li>

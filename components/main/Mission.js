@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { techStack } from "../data/data";
+import Link from "next/link";
 
 function Mission(props) {
   return (
@@ -13,6 +13,7 @@ function Mission(props) {
             alt="logo"
             width={600}
             height={500}
+            priority
           />
         </div>
         <div className="sm:w-1/2 px-6 pt-8">
@@ -33,7 +34,7 @@ function Mission(props) {
           </p>
 
           <div className="pt-8">
-            <a href={"/myResume.pdf"} download="Tristan Onfroy Resume">
+            <Link href="/team">
               <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-2xl font-medium text-white bg-[#B1BCA0] border  rounded-md shadow-inner group">
                 <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                 <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
@@ -44,7 +45,7 @@ function Mission(props) {
                   Team
                 </span>
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

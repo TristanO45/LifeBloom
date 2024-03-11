@@ -1,13 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { ctaCards } from "../data/data";
+import { ctaCards } from "../../data/data";
 
 function RelatedContent(props) {
   return (
-    <section
-      className="py-[7vh] px-5 sm:px-14"
-      id={props.id}
-    >
+    <section className="py-[7vh] px-5 sm:px-14" id={props.id}>
       <div className="flex items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 ">
           {ctaCards.map((items, index) => {

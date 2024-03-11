@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { techStack } from "../data/data";
+import { techStack } from "../../data/data";
 
 function AboutMe(props) {
   return (

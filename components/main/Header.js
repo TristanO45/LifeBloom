@@ -13,6 +13,7 @@ function Header(props) {
           width={0}
           height={0}
           style={{ width: "100%", height: "auto" }}
+          priority
         />
       </div>
 
