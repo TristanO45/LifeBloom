@@ -5,29 +5,28 @@ import Image from "next/image";
 function Header(props) {
   return (
     <section className="relative">
-      <div className="w-full overflow-hidden">
+      <div className="w-full h-screen overflow-hidden">
         <Image
           src="/HeaderImg1.jpg"
           alt="headerimg"
           className={"image"}
-          width={0}
-          height={0}
-          style={{ width: "100%", height: "auto" }}
+          fill={true}
+          style={{ objectFit: "cover" }}
           priority
         />
       </div>
 
       <div
-        className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-10"
+        className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-10 space-y-5"
         style={{ width: "100%" }}
       >
-        <h1 className="absolute pb-10 sm:pb-4 text-4xl sm:text-5xl md:text-6xl">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl">
           Nurturing Growth, Healing Hearts
         </h1>
-        <p className="pt-28 sm:pt-52 text-lg sm:text-2xl md:text-3xl">
+        <p className="text-lg sm:text-2xl md:text-3xl">
           Therapy Services in LA and Online in CA
         </p>
-        <div className="pt-2 sm:pt-8">
+        <div>
           <a href={"/myResume.pdf"} download="Tristan Onfroy Resume">
             <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-2xl font-medium text-white bg-[#B1BCA0] border border-[#333a29] rounded-md shadow-inner group">
               <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
