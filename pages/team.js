@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/main/Navbar";
 import TeamHeader from "../components/team/teamHeader";
+import Footer from "../components/main/Footer";
 
 function Team() {
   return (
@@ -9,6 +10,7 @@ function Team() {
       <div id="team">
         <TeamHeader />
       </div>
+      <Footer />
     </>
   );
 }

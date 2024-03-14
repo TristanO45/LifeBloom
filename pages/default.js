@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../../components/main/Navbar";
-import Header from "../../components/main/Header";
-import Mission from "../../components/main/Mission";
-import AboutMe from "../../components/main/AboutMe";
-import RelatedContent from "../../components/main/RelatedContent";
-import Footer from "../../components/main/Footer";
+import Navbar from "../components/main/Navbar";
+import Header from "../components/main/Header";
+import Mission from "../components/main/Mission";
+import AboutMe from "../components/main/AboutMe";
+import RelatedContent from "../components/main/RelatedContent";
+import Footer from "../components/main/Footer";
 
 function Layout({ children }) {
   return (
