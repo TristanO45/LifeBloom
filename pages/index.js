@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Layout from "./_layouts/default";
+import Layout from "./default";
 
 function Homepage() {
   return (

@@ -195,19 +195,6 @@ function Contact(props) {
             />
           </div>
         </div>
-
-        <div>
-          <ul className="flex flex-row justify-center text-2xl lg:text-sm space-x-4 pt-7 ml-4 lg:hidden">
-            {socialIcons.map((icons, index) => {
-              const { icon, url } = icons;
-              return (
-                <a href={url} target="_blank" key={index}>
-                  {icon}
-                </a>
-              );
-            })}
-          </ul>
-        </div>
     </section>
   );
 }
