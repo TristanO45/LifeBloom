@@ -25,7 +25,7 @@ export default function Navbar() {
   // const [colorChange, setColorChange] = useState("Home");
 
   return (
-    <nav className="sticky top-0 w-full flex justify-between items-center lg:px-36 px-10 py-8 bg-white text-black z-50">
+    <nav className="sticky top-0 w-full flex justify-between items-center lg:px-36 px-10 py-4 bg-white text-black z-50">
       <div className="flex items-center space-x-4">
         {/* Navbar menu items (visible on desktop) */}
         <ul className="hidden lg:flex space-x-4">
@@ -41,10 +41,10 @@ export default function Navbar() {
 
       <div>
         <Image
-          src={"/PortfolioHS.jpg"}
+          src={"/logo.jpg"}
           alt="Headshot"
-          width="40"
-          height="40"
+          width="130"
+          height="50"
           className="rounded-full"
         />
       </div>
