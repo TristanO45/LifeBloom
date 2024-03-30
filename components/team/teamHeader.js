@@ -4,8 +4,8 @@ import Image from "next/image";
 
 function TeamHeader(props) {
   return (
-    <section className="relative">
-      <div className="w-full h-screen overflow-hidden">
+    <section className="relative ">
+      <div className="w-full h-96 sm:h-[400px] overflow-hidden">
         <Image
           src="/teamHeader.jpg"
           alt="headerimg"
