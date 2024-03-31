@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         moulFont: ["Moul"],
         serifFont: ["Noto Serif Kannada"],
+        poppins: ["Poppins"],
+        tinos: ["Tinos"],
+        licorice: ["Licorice"]
       },
     },
     plugins: [],
