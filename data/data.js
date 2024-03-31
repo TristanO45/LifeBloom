@@ -80,15 +80,17 @@ const navbarMenuHamburger = [
 
 const ctaCards = [
   {
-    desc: "Request an Appointment",
+    desc1: "Request",
+    desc2: "an Appointment",
     imgUrl: "/RequestApt.jpg",
   },
   {
-    desc: "Explore Our Services",
+    desc1: "Explore",
+    desc2: "our Services",
     imgUrl: "/ExploreServices.jpg",
   },
   {
-    desc: "FAQ",
+    desc2: "FAQ",
     imgUrl: "/FAQ.jpg",
   },
 ];
@@ -116,4 +118,10 @@ const teamCard = [
   },
 ];
 
-export { navbarMenuLeft, navbarMenuRight, navbarMenuHamburger, ctaCards, teamCard };
+export {
+  navbarMenuLeft,
+  navbarMenuRight,
+  navbarMenuHamburger,
+  ctaCards,
+  teamCard,
+};

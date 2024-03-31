@@ -6,9 +6,9 @@ function RelatedContent(props) {
   return (
     <section className="py-[7vh] px-5 sm:px-14" id={props.id}>
       <div className="flex items-center justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 ">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-3 ">
           {ctaCards.map((items, index) => {
-            const { desc, imgUrl } = items;
+            const { desc, desc1, desc2, imgUrl } = items;
             return (
               <div
                 key={index}
@@ -19,8 +19,13 @@ function RelatedContent(props) {
                     <Image src={imgUrl} alt="ctaImg" width={500} height={100} />
                   </div>
                 </div>
-                <div className=" text-center pt-8">
-                  <p className="text-xl sm:text-2xl text-black">{desc}</p>
+                <div className="text-center pt-5 sm:pt-8">
+                  <p className="font-licorice text-4xl sm:text-5xl text-black">
+                    {desc1}{" "}
+                    <span className="font-tinos text-2xl sm:text-3xl">
+                      {desc2}
+                    </span>
+                  </p>
                 </div>
               </div>
             );

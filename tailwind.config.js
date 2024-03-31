@@ -13,7 +13,8 @@ module.exports = {
         serifFont: ["Noto Serif Kannada"],
         poppins: ["Poppins"],
         tinos: ["Tinos"],
-        licorice: ["Licorice"]
+        licorice: ["Licorice"],
+        euphoria: ["Euphoria Script"],
       },
     },
     plugins: [],
