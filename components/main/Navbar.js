@@ -31,7 +31,7 @@ export default function Navbar() {
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuLeft.map((link, index) => (
             <li key={index}>
-              <Link href={link.url} className="hover:text-[#5fefd0]">
+              <Link href={link.url} className="hover:text-[#6A6E59]">
                 {link.text}
               </Link>
             </li>

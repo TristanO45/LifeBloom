@@ -83,15 +83,19 @@ const ctaCards = [
     desc1: "Request",
     desc2: "an Appointment",
     imgUrl: "/RequestApt.jpg",
+    path: "/contact"
   },
   {
     desc1: "Explore",
     desc2: "our Services",
     imgUrl: "/ExploreServices.jpg",
+    path: "/service"
   },
   {
+    desc1: "",
     desc2: "FAQ",
     imgUrl: "/FAQ.jpg",
+    path: "/faq"
   },
 ];
 
