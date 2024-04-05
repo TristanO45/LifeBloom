@@ -8,15 +8,10 @@ function Contact() {
   return (
     <>
       <Navbar />
-      <div  className="flex flex-col justify-between ">
+      <div className="flex flex-col justify-between ">
         <ContactHeader />
-        
+        <ContactForm id="contact" />
       </div>
-      <ContactForm id="contact"/>
-      
-      
-      
-      
       <Footer />
     </>
   );
