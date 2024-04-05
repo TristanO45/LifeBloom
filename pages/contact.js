@@ -8,11 +8,14 @@ function Contact() {
   return (
     <>
       <Navbar />
-      <div id="contact" className="min-h-screen flex flex-col justify-between">
+      <div  className="flex flex-col justify-between ">
         <ContactHeader />
         
       </div>
-      <ContactForm />
+      <ContactForm id="contact"/>
+      
+      
+      
       
       <Footer />
     </>
