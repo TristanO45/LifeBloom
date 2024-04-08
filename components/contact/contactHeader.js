@@ -31,7 +31,7 @@ function ContactHeader(props) {
             inquiry form below. We respond to each inquiry within 24-48 hours.
             If you do not see a response, please check your spam folder.
           </p>
-          <p className="text-lg sm:text-xl tracking-wide">
+          <p className="text-lg sm:text-xl font-bold tracking-wide">
             For general questions and all other inquiries, feel free to email
             keisha@keishalibbrecht.com
           </p>

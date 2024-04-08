@@ -11,6 +11,7 @@ function ContactForm(props) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [referred, setReferred] = useState("");
+  const [preferred, setPreferred] = useState("");
   const [description, setDescription] = useState("");
   const [availability, setAvailability] = useState("");
 
@@ -50,6 +51,7 @@ function ContactForm(props) {
           setEmail("");
           setPhone("");
           setReferred("");
+          setPreferred("");
           setDescription("");
           setAvailability("");
         },
@@ -66,6 +68,7 @@ function ContactForm(props) {
             setEmail("");
             setPhone("");
             setReferred("");
+            setPreferred("");
             setDescription("");
             setAvailability("");
             return;
@@ -97,6 +100,10 @@ function ContactForm(props) {
     }
     if (referred.length <= 0) {
       tempErrors["referred"] = true;
+      isValid = false;
+    }
+    if (preferred.length <= 0) {
+      tempErrors["preferred"] = true;
       isValid = false;
     }
     if (description.length <= 0) {
@@ -152,7 +159,7 @@ function ContactForm(props) {
               </div>
               <div className="flex flex-col w-full max-w-[50%]">
                 <label className="text-black">Date of Birth</label>
-                <span>(Some therapist don't see minors.)</span>
+                <span>(Some therapist don't see minors)</span>
                 <input
                   type="date"
                   name="dateOfBirth"
@@ -191,13 +198,25 @@ function ContactForm(props) {
                 />
               </div>
               <div className="flex flex-col w-full max-w-full">
-                <label className="text-black">How Did You Hear About Us?</label>
+                <label className="text-black">How did you hear about us?</label>
                 <input
                   type="text"
                   name="referred"
                   value={referred}
                   onChange={(e) => {
                     setReferred(e.target.value);
+                  }}
+                  className="w-full border border-black rounded-sm bg-transparent py-2 px-4 focus:outline-none focus:rounded-lg focus:ring-1 ring-[#333a29] font-normal text-black text-lg"
+                />
+              </div>
+              <div className="flex flex-col w-full max-w-full">
+                <label className="text-black">Preferred therapist?</label>
+                <input
+                  type="text"
+                  name="referred"
+                  value={preferred}
+                  onChange={(e) => {
+                    setPreferred(e.target.value);
                   }}
                   className="w-full border border-black rounded-sm bg-transparent py-2 px-4 focus:outline-none focus:rounded-lg focus:ring-1 ring-[#333a29] font-normal text-black text-lg"
                 />
@@ -218,7 +237,7 @@ function ContactForm(props) {
                 ></textarea>
               </div>
               <div className="flex flex-col w-full max-w-full">
-                <label className="text-gray-500">
+                <label className="text-black">
                   What is your availability for sessions?
                 </label>
                 <input
