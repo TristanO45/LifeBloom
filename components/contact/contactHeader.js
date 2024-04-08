@@ -7,7 +7,7 @@ function ContactHeader(props) {
     <section className="relative">
       <div className="h-[50vh] overflow-hidden">
         <Image
-          src="/contactHeader.jpg"
+          src="/contactHeader2.jpg"
           alt="headerimg"
           width={200}
           height={200}
@@ -16,11 +16,24 @@ function ContactHeader(props) {
         />
       </div>
 
-      <div className="w-[95%] sm:w-[75%] bg-[#333a29] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
+      <div className="w-[95%] sm:w-[75%] bg-[#6a6e59] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
         <div className="w-[85%] py-24 mx-auto flex flex-col justify-center items-center text-center text-white space-y-8">
-          <h1 className=" text-4xl sm:text-5xl md:text-6xl">Request an Appointment</h1>
-          <p className="text-lg sm:text-xl ">
-          To request an appointment, please complete the inquiry form below. We respond to each inquiry within 24-48 hours. If you do not see a response, please check your spam folder. We will email or call you back with additional information on how to schedule an appointment.
+          <div className="flex flex-row">
+            <h1 className="font-licorice mr-4 tracking-wide text-5xl sm:text-6xl md:text-7xl">
+              Request
+            </h1>
+            <span className="font-tinos text-3xl sm:text-6xl">
+              an Appointment
+            </span>
+          </div>
+          <p className="text-lg sm:text-xl tracking-wide">
+            To request an appointment or consultation, please complete the
+            inquiry form below. We respond to each inquiry within 24-48 hours.
+            If you do not see a response, please check your spam folder.
+          </p>
+          <p className="text-lg sm:text-xl tracking-wide">
+            For general questions and all other inquiries, feel free to email
+            keisha@keishalibbrecht.com
           </p>
         </div>
       </div>

@@ -11,8 +11,8 @@ function Team() {
       <Navbar />
       <div id="team">
         <TeamHeader />
-        {/* <TeamCards /> */}
-        <TeamPage />
+        <TeamCards />
+        {/* <TeamPage /> */}
       </div>
       <Footer />
     </>
