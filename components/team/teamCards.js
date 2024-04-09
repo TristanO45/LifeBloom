@@ -8,7 +8,7 @@ function TeamCards() {
     <section className="bg-white py-16 flex justify-center">
       <div className="container mx-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {teamCard.map((items, index) => {
-          const { imgUrl, textH1, textP, path } = items;
+          const { imgUrl, name, title, specializations, path } = items;
           return (
             <div
               key={index}
@@ -25,8 +25,16 @@ function TeamCards() {
                 />
               </div>
               <div className="p-4 flex flex-col items-center">
-                <h2 className="text-lg font-semibold">{textH1}</h2>
-                <p className="py-2">{textP}</p>
+                <h2 className="text-lg font-tinos font-semibold">{name}</h2>
+                <p className="py-2">{title}</p>
+                <p className="text-[#c3c1ab] font-bold text-lg">
+                  Specializations
+                </p>
+                <ul className="list-disc pt-1 pb-2 pl-6 text-left">
+                  {specializations.map((specialization, index) => (
+                    <li key={index}>{specialization}</li>
+                  ))}
+                </ul>
                 <Link href={path}>
                   <button className="relative overflow-hidden px-6 sm:px-8 md:px-12 py-1 sm:py-2 text-lg md:text-xl font-medium text-white bg-[#8e9583] border rounded-md shadow-inner group">
                     <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>

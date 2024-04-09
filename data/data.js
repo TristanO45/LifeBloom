@@ -83,19 +83,19 @@ const ctaCards = [
     desc1: "Request",
     desc2: "an Appointment",
     imgUrl: "/RequestApt.jpg",
-    path: "/contact"
+    path: "/contact",
   },
   {
     desc1: "Explore",
     desc2: "our Services",
     imgUrl: "/ExploreServices.jpg",
-    path: "/service"
+    path: "/service",
   },
   {
     desc1: "",
     desc2: "FAQ",
     imgUrl: "/FAQ.jpg",
-    path: "/faq"
+    path: "/faq",
   },
 ];
 
@@ -104,20 +104,23 @@ const ctaCards = [
 const teamCard = [
   {
     imgUrl: "KeishaHS.jpg",
-    textH1: "Keisha Libbrecht, M.A. LMFT",
-    textP: "CEO & Founder | Clinical Director",
+    name: "Kristina Roman, M.A. ACSW",
+    title: "Associate Therapist",
+    specializations: ["Anxiety", "Relationship", "Trauma"],
     path: "temp",
   },
   {
     imgUrl: "KeishaHS2.jpg",
-    textH1: "Lilly Coy, AMFT",
-    textP: "Associate Therapist",
+    name: "Lilly Coy, AMFT",
+    title: "Associate Therapist",
+    specializations: ["Anxiety", "Relationship", "Trauma"],
     path: "temp",
   },
   {
     imgUrl: "KeishaHS3.jpg",
-    textH1: "Potato Butt, M.A. LMFT",
-    textP: "Associate Therapist",
+    name: "Potato Butt, M.A. LMFT",
+    title: "CEO & Founder | Clinical Director",
+    specializations: ["Anxiety", "Relationship", "Trauma"],
     path: "temp",
   },
 ];
