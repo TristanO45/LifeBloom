@@ -54,7 +54,7 @@ export default function Navbar() {
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuRight.map((link, index) => (
             <li key={index}>
-              <Link href={link.url} className="hover:text-[#5fefd0]">
+              <Link href={link.url} className="hover:text-[#6A6E59]">
                 {link.text}
               </Link>
             </li>
@@ -73,7 +73,7 @@ export default function Navbar() {
         <ul className="lg:hidden fixed top-16 right-4 bg-white p-4 space-y-2">
           {navbarMenuHamburger.map((link, index) => (
             <li key={index}>
-              <Link href={link.url} className="hover:text-[#5fefd0]">
+              <Link href={link.url} className="hover:text-[#6A6E59]">
                 {link.text}
               </Link>
             </li>
