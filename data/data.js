@@ -103,24 +103,24 @@ const ctaCards = [
 
 const teamCard = [
   {
-    imgUrl: "KeishaHS.jpg",
-    name: "Kristina Roman, M.A. ACSW",
-    title: "Associate Therapist",
-    specializations: ["Anxiety", "Relationship", "Trauma"],
+    imgUrl: "Kristina.jpeg",
+    name: "Kristina Roman, ACSW",
+    title: "Associate Therapist & Clinical Social Worker",
+    specializations: ["Adults, Adolescents & Couples"],
     path: "temp",
   },
   {
     imgUrl: "KeishaHS2.jpg",
     name: "Lilly Coy, AMFT",
     title: "Associate Therapist",
-    specializations: ["Anxiety", "Relationship", "Trauma"],
+    specializations: ["Adults, Adolescents & Couples"],
     path: "temp",
   },
   {
     imgUrl: "KeishaHS3.jpg",
-    name: "Potato Butt, M.A. LMFT",
-    title: "CEO & Founder | Clinical Director",
-    specializations: ["Anxiety", "Relationship", "Trauma"],
+    name: "Keisha Libbrecht, LMFT",
+    title: "Licensed Therapist & Supervisor | CEO & Founder",
+    specializations: ["Adults & Couples"],
     path: "temp",
   },
 ];
