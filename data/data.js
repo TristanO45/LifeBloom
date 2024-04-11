@@ -117,7 +117,7 @@ const teamCard = [
     path: "temp",
   },
   {
-    imgUrl: "KeishaHS3.jpg",
+    imgUrl: "KeishaHS2.jpg",
     name: "Keisha Libbrecht, LMFT",
     title: "Licensed Therapist & Supervisor | CEO & Founder",
     specializations: ["Adults & Couples"],
