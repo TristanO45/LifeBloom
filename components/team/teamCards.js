@@ -14,7 +14,7 @@ function TeamCards() {
               key={index}
               className="py-8 px-8 flex flex-col rounded-sm overflow-hidden shadow- max-w-[400px] mx-auto "
             >
-              <div className="group">
+              <div className="group flex justify-center">
                 <div className="transition-transform duration-500 group-hover:scale-105">
                   <Link href={path}>
                     <Image
@@ -29,7 +29,7 @@ function TeamCards() {
                 </div>
               </div>
 
-              <div className="p-4 flex flex-col items-center">
+              <div className="pt-6 flex flex-col items-center">
                 <h2 className="text-lg lg:text-2xl font-tinos font-semibold">
                   {name}
                 </h2>
