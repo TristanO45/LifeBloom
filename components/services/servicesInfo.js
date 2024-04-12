@@ -6,7 +6,7 @@ function ServicesInfo(props) {
   return (
     <section className="pt-20 flex flex-col items-center" id={props.id}>
       <div className="w-auto pb-16 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">
-        <div className="w-full lg:w-1/2 pt-14 space-y-4">
+        <div className="w-full lg:w-1/2 lg:pt-14 space-y-4">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Individual Therapy
           </h1>
@@ -31,13 +31,13 @@ function ServicesInfo(props) {
             move forward
           </p>
           <div className="container w-full h-auto mb-10 py-10 px-2 bg-[#c3c1ab] shadow-sm">
-            <div className="flex flex-row text-black z-10">
+            <div className="flex flex-col sm:flex-row text-black z-10">
               <div className="w-full sm:w-3/4 h-min">
                 <h1 className="font-tinos text-2xl sm:text-3xl lg:text-3xl px-5 pl-2 sm:pl-5 lg:pl-10">
                   Specialties
                 </h1>
               </div>
-              <ul className="w-full pr-10 grid grid-cols sm:grid-cols-2  gap-x-10 list-disc">
+              <ul className="w-full pt-3 sm:pt-0 pl-4 px-2 grid grid-cols-1 sm:grid-cols-2 gap-x-2 sm:gap-x-5 gap-y-1 list-disc">
                 <li>Life transitions</li>
                 <li>Identity Development</li>
                 <li>Depression</li>
@@ -62,8 +62,8 @@ function ServicesInfo(props) {
         </div>
       </div>
 
-      <div className="w-full bg-[#E7E5D9]  pt-20 pb-20 px-6 gap-20 flex flex-col-reverse lg:flex-row-reverse justify-center ">
-        <div className="w-full lg:w-1/2  space-y-4">
+      <div className="w-full bg-[#E7E5D9] pt-20 pb-20 px-6 gap-20 flex flex-col-reverse lg:flex-row-reverse justify-center ">
+        <div className="w-full lg:w-1/2 space-y-4">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Couples Therapy
           </h1>
