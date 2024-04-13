@@ -30,7 +30,7 @@ function ServicesInfo(props) {
             challenges, get to the root of them, and make a plan to help you
             move forward
           </p>
-          <div className="container w-full h-auto mb-10 py-10 px-2 bg-[#c3c1ab] shadow-sm">
+          <div className="container w-full h-auto mb-10 py-10 px-2 bg-[] shadow-lg border-black border">
             <div className="flex flex-col sm:flex-row text-black z-10">
               <div className="w-full sm:w-3/4 h-min">
                 <h1 className="font-tinos text-2xl sm:text-3xl lg:text-3xl px-5 pl-2 sm:pl-5 lg:pl-10">

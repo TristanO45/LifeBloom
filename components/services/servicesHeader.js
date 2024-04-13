@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-function ServicesHeader(props) {
+function ServicesHeader() {
   return (
     <section className="relative">
       <div className="w-full h-72 sm:h-[800px] opacity-90 overflow-hidden">
