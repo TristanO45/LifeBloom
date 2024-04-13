@@ -5,9 +5,9 @@ import Image from "next/image";
 function Header(props) {
   return (
     <section className="relative">
-      <div className="w-full h-screen overflow-hidden opacity-80">
+      <div className="w-full h-screen overflow-hidden opacity-">
         <Image
-          src="/HeaderImg1.jpg"
+          src="/HeaderImg2.jpg"
           alt="headerimg"
           className={"image"}
           fill={true}

@@ -41,7 +41,7 @@ export default function Navbar() {
 
       <div>
         <Image
-          src={"/logo.jpg"}
+          src={"/logo2.jpg"}
           alt="Headshot"
           width="130"
           height="50"

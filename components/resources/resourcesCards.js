@@ -6,7 +6,7 @@ import { resourcesCards } from "../../data/data";
 function ResourcesCards() {
   return (
     <section className="bg-white py-16 flex justify-center">
-      <div className="container  mx-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="container mx-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-20">
         {resourcesCards.map((items, index) => {
           const { name, description, buttonText } = items;
           return (
@@ -18,7 +18,7 @@ function ResourcesCards() {
                 <h2 className="text-2xl lg:text-3xl font-tinos">{name}</h2>
                 <p className="py-6 text-sm">{description}</p>
                 <div className="w-full">
-                  <button className="relative w-full overflow-hidden px-6 sm:px-8 md:px-12 py-2 sm:py-3 text-md md:text-lg font-medium text-white bg-[#6a6e59] border rounded-md shadow-inner group">
+                  <div className="relative w-full overflow-hidden px-6 sm:px-8 md:px-12 py-2 sm:py-3 text-center text-md md:text-lg font-medium text-white bg-[#6a6e59] border rounded-md shadow-inner group">
                     <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
@@ -27,7 +27,7 @@ function ResourcesCards() {
                     <span className="relative transition-colors duration-300 delay-200 group-hover:text-[#6a6e59] ease">
                       {buttonText}
                     </span>
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>
