@@ -5,9 +5,9 @@ import Image from "next/image";
 function ContactHeader(props) {
   return (
     <section className="relative">
-      <div className="h-[50vh] overflow-hidden">
+      <div className="h-[60vh] opacity-80 overflow-hidden">
         <Image
-          src="/contactHeader2.jpg"
+          src="/contactHeader3.jpg"
           alt="headerimg"
           width={200}
           height={200}
@@ -16,7 +16,7 @@ function ContactHeader(props) {
         />
       </div>
 
-      <div className="w-[95%] sm:w-[75%] bg-[#6a6e59] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
+      <div className="w-[95%] sm:w-[75%] bg-[#ae887b] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
         <div className="w-[85%] py-24 mx-auto flex flex-col justify-center items-center text-center text-white space-y-8">
           <div className="flex flex-row">
             <h1 className="font-licorice mr-4 tracking-wide text-5xl sm:text-6xl md:text-7xl">

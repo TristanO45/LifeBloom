@@ -32,7 +32,7 @@ function TeamHeader(props) {
         </p>
         <div className="pt-2 sm:pt-4 md:pt-6 lg:pt-8">
           <Link href="/contact">
-            <button className="relative overflow-hidden px-4 sm:px-6 md:px-8 lg:px-12 py-1 sm:py-2 md:py-3 text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-white bg-[#ae887b]  rounded-md shadow-inner group">
+            <button className="relative overflow-hidden px-4 sm:px-6 md:px-8 lg:px-12 py-1 sm:py-2 md:py-3 text-lg sm:text-xl font-medium text-white bg-[#ae887b]  rounded-md shadow-inner group">
               <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
               <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
               <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>

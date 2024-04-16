@@ -1,12 +1,13 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Image from "next/image";
 import Link from "next/link";
 
 function ServicesInfo(props) {
   return (
-    <section className="pt-20 flex flex-col items-center" id={props.id}>
+    <section className="pt-12 lg:pt-0 flex flex-col items-center" id={props.id}>
       <div className="w-auto pb-16 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">
-        <div className="w-full lg:w-1/2 lg:pt-14 space-y-4">
+        <div className="w-full lg:w-1/2 lg:pt-8 space-y-4">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Individual Therapy
           </h1>
@@ -30,10 +31,10 @@ function ServicesInfo(props) {
             challenges, get to the root of them, and make a plan to help you
             move forward
           </p>
-          <div className="container w-full h-auto mb-10 py-10 px-2 bg-[] shadow-lg border-black border">
+          <div className="container w-full h-auto mb-10 py- px-2 bg-[]">
             <div className="flex flex-col sm:flex-row text-black z-10">
               <div className="w-full sm:w-3/4 h-min">
-                <h1 className="font-tinos text-2xl sm:text-3xl lg:text-3xl px-5 pl-2 sm:pl-5 lg:pl-10">
+                <h1 className="font-licorice text-[#6a6e59] text-4xl sm:text-5xl lg:text-6xl px-5 pl-2 sm:pl-5 lg:pl-10">
                   Specialties
                 </h1>
               </div>
@@ -50,16 +51,17 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-
-        <div className="pb-4  sm:px-0 flex justify-center">
-          <Image
-            className="rounded-sm"
-            src={"/individualTherapy1.jpg"}
-            alt="headshot"
-            width={500}
-            height={500}
-          />
-        </div>
+        <Fade right>
+          <div className="pb-4 sm:px-0 flex justify-center">
+            <Image
+              className="rounded-sm"
+              src={"/individualTherapy5.jpg"}
+              alt="headshot"
+              width={500}
+              height={500}
+            />
+          </div>
+        </Fade>
       </div>
 
       <div className="w-full bg-[#E7E5D9] pt-20 pb-20 px-6 gap-20 flex flex-col-reverse lg:flex-row-reverse justify-center ">
@@ -98,7 +100,7 @@ function ServicesInfo(props) {
           <div className="container w-full h-auto mb-10 py-5 px-2 bg-[white] shadow-md">
             <div className="flex flex-col sm:flex-row text-black z-10">
               <div className="w-full sm:w-2/4 h-min">
-                <h1 className="font-tinos text-2xl sm:text-3xl lg:text-3xl px-5 pl-2 sm:pl-5 lg:pl-10">
+                <h1 className="font-licorice text-[#6a6e59] text-4xl sm:text-5xl lg:text-6xl px-5 pl-2 sm:pl-5">
                   Specialties
                 </h1>
               </div>
@@ -123,16 +125,17 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-
-        <div className="pb-4 px-3 sm:px-0 flex justify-center">
-          <Image
-            className="rounded-sm"
-            src={"/couplesTherapy.jpg"}
-            alt="headshot"
-            width={500}
-            height={500}
-          />
-        </div>
+        <Fade left>
+          <div className="pb-4 px-3 sm:px-0 flex justify-center">
+            <Image
+              className="rounded-sm"
+              src={"/couplesTherapy.jpg"}
+              alt="headshot"
+              width={500}
+              height={500}
+            />
+          </div>
+        </Fade>
       </div>
 
       <div className="w-full pt-20 pb-5 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">

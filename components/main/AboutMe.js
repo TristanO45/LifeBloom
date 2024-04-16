@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Image from "next/image";
 
 function AboutMe(props) {
@@ -30,8 +31,8 @@ function AboutMe(props) {
           </p>
 
           <div className="pt-14">
-            <a href={"/myResume.pdf"} download="Tristan Onfroy Resume">
-              <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-2xl font-medium text-white bg-[#6A6E59] border  rounded-lg shadow-inner group">
+            <a href={"/team"}>
+              <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-xl font-medium text-white bg-[#6A6E59] border  rounded-lg shadow-inner group">
                 <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                 <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
                 <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
@@ -44,15 +45,17 @@ function AboutMe(props) {
             </a>
           </div>
         </div>
-        <div className="sm:w-1/2 pb-6 sm:pb-0">
-          <Image
-            className="rounded-sm"
-            src={"/keisha.jpg"}
-            alt="headshot"
-            width={500}
-            height={400}
-          />
-        </div>
+        <Fade right>
+          <div className="sm:w-1/2 pb-6 sm:pb-0">
+            <Image
+              className="rounded-sm"
+              src={"/keisha.jpg"}
+              alt="headshot"
+              width={500}
+              height={400}
+            />
+          </div>
+        </Fade>
       </div>
     </section>
   );

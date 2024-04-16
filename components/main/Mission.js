@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,6 +7,7 @@ function Mission(props) {
   return (
     <section className="py-20 px-6 sm:px-14" id={props.id}>
       <div className="container flex flex-col lg:flex-row items-center">
+        <Fade left>
         <div className="sm:w-1/2 pb-6 sm:pb-0">
           <Image
             className="rounded-md"
@@ -16,6 +18,7 @@ function Mission(props) {
             priority
           />
         </div>
+        </Fade>
         <div className="sm:w-1/2">
           <h1 className="font-tinos text-4xl sm:text-5xl md:text-6xl text-[#6A6E59]">
             We're so glad you found your way here.
@@ -54,8 +57,8 @@ function Mission(props) {
           </p>
 
           <div className="pt-8">
-            <Link href="/team">
-              <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-2xl font-medium text-white bg-[#6A6E59] border  rounded-md shadow-inner group">
+            <Link href="/services">
+              <button className="relative overflow-hidden px-6 sm:px-12 py-1 sm:py-3 text-lg sm:text-xl font-medium text-white bg-[#6A6E59] border  rounded-md shadow-inner group">
                 <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                 <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
                 <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>

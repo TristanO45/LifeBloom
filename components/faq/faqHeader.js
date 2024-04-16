@@ -1,11 +1,19 @@
 import React from "react";
+import Image from "next/image"
 
 function FaqHeader() {
   return (
-    <section>
-      <div className="bg-[#6a6e59] h-[30vh] w-full flex flex-col-reverse lg:flex-row items-center">
-        <div className="w-full flex flex-col items-center">
-          <h1 className="font-tinos tracking-wide text-3xl sm:text-4xl md:text-5xl text-black">
+    <section className="relative">
+      <div className="w-full h-72  sm:h-[25vh] overflow-hidden opacity-80">
+      <Image
+          src="/faqHeader2.jpg"
+          alt="headerimg"
+          className=""
+          fill={true}
+          style={{ objectFit: "cover" }}
+        />
+      <div className="absolute w-full inset-0 flex flex-col justify-center items-center ">
+          <h1 className="font-tinos tracking-wide text-3xl sm:text-4xl md:text-5xl text-white">
             Frequently Asked Questions
           </h1>
         </div>

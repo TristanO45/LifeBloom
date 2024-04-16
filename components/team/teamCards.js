@@ -33,18 +33,18 @@ function TeamCards() {
                 <h2 className="text-lg lg:text-2xl font-tinos font-semibold">
                   {name}
                 </h2>
-                <p className="py-1 text-center text-sm">{title}</p>
-                <p className="pt-3 font-bold text-2xl font-tinos text-[#ae887b]">
+                <p className="py-1 pb-4 text-center text-sm">{title}</p>
+                <p className="pt-3 font-bold text-xl font-tinos">
                   Specializations
                 </p>
-                <ul className="pt-1 pb-7 text-center">
+                <ul className="pt- pb-7 text-center">
                   {specializations.map((specialization, index) => (
                     <li key={index}>{specialization}</li>
                   ))}
                 </ul>
 
                 <Link href={path}>
-                  <button className="relative overflow-hidden px-6 sm:px-8 md:px-12 py-1 sm:py-2 text-lg md:text-xl font-medium text-white bg-[#6a6e59] border rounded-md shadow-inner group">
+                  <button className="relative overflow-hidden px-6 sm:px-8 md:px-12 py-1 sm:py-2 text-lg sm:text-xl font-medium text-white bg-[#6a6e59] border rounded-md shadow-inner group">
                     <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>

@@ -166,11 +166,52 @@ const resourcesCards = [
   },
 ];
 
+const faqData = [
+  {
+    question: "How do I get started?",
+    answer: `When you first contact us, we will set up an initial phone consultation, free of charge. This 10-15 minute conversation allows you to share a summary of your reasons for seeking therapy and allows us to ask pertinent questions to determine if we are the right therapist to help you.
+    
+    Our first scheduled appointment is usually considered an initial consultation without obligation, in that it gives us a chance to get to know each other a bit, discuss your concerns and goals, and determine how to best proceed.
+    
+    Sessions are mostly conducted virtually using a secure telehealth platform. Some therapists may have some exceptions and provide in-person appointments.
+    
+    To schedule a consultation call or initial appointment, please contact us through our contact page or reaching out directly to the therapist you are interested in working with - we do our best to return calls and emails within two business days.`,
+  },
+  {
+    question: "What can I expect in the first session?",
+    answer: "The initial session is the time for you to start to share your story, talk about your goals and what you would like to change. Another important aspect of the first session is deciding if we are a good fit. We are establishing a relationship that will become the foundation for working together. You will begin to figure out some goals; I will begin to figure out how to help you get there.",
+  },
+  {
+    question: "How much do sessions cost? (updated as of 2024)",
+    answer: `<u>Licenced Therapist Rates</u> 
+    $200 per 50 minutes (Individual sessions) 
+    $225 per 50 minute sessions (Couples sessions) 
+    
+    <u>Associate Therapist Rates</u>
+    $150 per 50 minutes (Individual sessions)
+    $175 per 50 minute sessions (Couples sessions)
+    
+    We offer a sliding scale on a limited basis for those that need it; please contact us to see if these slots are available. We encourage you to communicate openly with your therapist if you require assistance.`,
+  },
+  {
+    question: "What is your cancellation policy",
+    answer: `We require 24 hours notice of cancellation or you will need to pay for the appointment. An occasional exception may be made in the case of an emergency. The sooner you let your therapist know of an issue the better.`,
+  },
+  {
+    question: "Do you accept insurance?",
+    answer: `No, we do not accept insurance at this time. If you have a PPO type plan and want to submit a claim for out-of-network reimbursement, we can give you a receipt to help facilitate any reimbursement you may be entitled to. It is highly recommended that you check in with your insurance provider to clarify your out-of-network coverage prior to the start of therapy.
+    
+    Please note that submitting an insurance claim means we may need to give you a mental health diagnosis.
+    
+    We know navigating health insurance is tricky - we can suggest some helpful questions to ask your insurance carrier if you plan to call.`,
+  },
+];
+
 export {
   navbarMenuLeft,
   navbarMenuRight,
   navbarMenuHamburger,
   ctaCards,
   teamCard,
-  resourcesCards,
+  resourcesCards, faqData,
 };
