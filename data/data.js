@@ -107,7 +107,7 @@ const teamCard = [
     name: "Kristina Roman, ACSW",
     title: "Associate Therapist & Clinical Social Worker",
     specializations: ["Adults, Adolescents & Couples"],
-    path: "temp",
+    path: "./teamBio/kristina",
   },
   {
     imgUrl: "KeishaHS2.jpg",
@@ -179,7 +179,8 @@ const faqData = [
   },
   {
     question: "What can I expect in the first session?",
-    answer: "The initial session is the time for you to start to share your story, talk about your goals and what you would like to change. Another important aspect of the first session is deciding if we are a good fit. We are establishing a relationship that will become the foundation for working together. You will begin to figure out some goals; I will begin to figure out how to help you get there.",
+    answer:
+      "The initial session is the time for you to start to share your story, talk about your goals and what you would like to change. Another important aspect of the first session is deciding if we are a good fit. We are establishing a relationship that will become the foundation for working together. You will begin to figure out some goals; I will begin to figure out how to help you get there.",
   },
   {
     question: "How much do sessions cost? (updated as of 2024)",
@@ -213,5 +214,6 @@ export {
   navbarMenuHamburger,
   ctaCards,
   teamCard,
-  resourcesCards, faqData,
+  resourcesCards,
+  faqData,
 };

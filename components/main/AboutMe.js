@@ -49,7 +49,7 @@ function AboutMe(props) {
           <div className="sm:w-1/2 pb-6 sm:pb-0">
             <Image
               className="rounded-sm"
-              src={"/keisha.jpg"}
+              src={"/keisha3.jpg"}
               alt="headshot"
               width={500}
               height={400}

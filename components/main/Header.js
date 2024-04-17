@@ -5,9 +5,9 @@ import Image from "next/image";
 function Header(props) {
   return (
     <section className="relative">
-      <div className="w-full h-screen overflow-hidden">
+      <div className="w-full h-screen opacity-90 overflow-hidden">
         <Image
-          src="/headerImg4.jpg"
+          src="/headerImg2.jpg"
           alt="headerimg"
           className={"image"}
           fill={true}
@@ -21,8 +21,7 @@ function Header(props) {
         style={{ width: "100%" }}
       >
         <h1 className="font-tinos text-4xl sm:text-6xl md:text-7xl tracking-normal">
-          Nurturing Growth{" "}
-          <br />{" "}
+          Nurturing Growth <br />{" "}
           <span className="font-licorice text-5xl sm:text-7xl md:text-8xl">
             Healing Hearts
           </span>
