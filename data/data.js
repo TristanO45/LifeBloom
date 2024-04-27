@@ -105,23 +105,23 @@ const teamCard = [
   {
     imgUrl: "Kristina.jpeg",
     name: "Kristina Roman, ACSW",
-    title: "Associate Therapist & Clinical Social Worker",
-    specializations: ["Adults, Adolescents & Couples"],
+    title: "Associate Therapist",
+    specializations: ["Adults, Adolescents & Couples Therapy"],
     path: "./teamBio/kristina",
   },
   {
-    imgUrl: "KeishaHS2.jpg",
-    name: "Lilly Coy, AMFT",
+    imgUrl: "stephanie.jpg",
+    name: "Stephanie Wickens, AMFT",
     title: "Associate Therapist",
-    specializations: ["Adults, Adolescents & Couples"],
-    path: "temp",
+    specializations: ["Adults, Adolescents & Couples Therapy"],
+    path: "./teamBio/stephanie",
   },
   {
     imgUrl: "KeishaHS2.jpg",
     name: "Keisha Libbrecht, LMFT",
     title: "Licensed Therapist & Supervisor | CEO & Founder",
-    specializations: ["Adults & Couples"],
-    path: "temp",
+    specializations: ["Adults & Couples Therapy"],
+    path: "./teamBio/keisha",
   },
 ];
 
@@ -175,12 +175,12 @@ const faqData = [
     
     Sessions are mostly conducted virtually using a secure telehealth platform. Some therapists may have some exceptions and provide in-person appointments.
     
-    To schedule a consultation call or initial appointment, please contact us through our contact page or reaching out directly to the therapist you are interested in working with - we do our best to return calls and emails within two business days.`,
+    To schedule a consultation call or initial appointment, please contact us through our contact page or by reaching out directly to the therapist you are interested in working with - we do our best to return calls and emails within two business days.`,
   },
   {
     question: "What can I expect in the first session?",
     answer:
-      "The initial session is the time for you to start to share your story, talk about your goals and what you would like to change. Another important aspect of the first session is deciding if we are a good fit. We are establishing a relationship that will become the foundation for working together. You will begin to figure out some goals; I will begin to figure out how to help you get there.",
+      "The initial session is the time for you to start to share your story, talk about your goals and what you would like to change. Another important aspect of the first session is deciding if we are a good fit. We are establishing a therapeutic relationship that will become the foundation for working together. You will begin to figure out some goals; I will begin to figure out how to help you get there.",
   },
   {
     question: "How much do sessions cost? (updated as of 2024)",
@@ -202,7 +202,7 @@ const faqData = [
     question: "Do you accept insurance?",
     answer: `No, we do not accept insurance at this time. If you have a PPO type plan and want to submit a claim for out-of-network reimbursement, we can give you a receipt to help facilitate any reimbursement you may be entitled to. It is highly recommended that you check in with your insurance provider to clarify your out-of-network coverage prior to the start of therapy.
     
-    Please note that submitting an insurance claim means we may need to give you a mental health diagnosis.
+    Please note that submitting an insurance claim usually requires a mental health diagnosis.
     
     We know navigating health insurance is tricky - we can suggest some helpful questions to ask your insurance carrier if you plan to call.`,
   },

@@ -40,13 +40,15 @@ export default function Navbar() {
       </div>
 
       <div>
+        <Link href={"/"}>
         <Image
-          src={"/logo2.jpg"}
-          alt="Headshot"
+          src={"/logo.png"}
+          alt="logo"
           width="130"
           height="50"
-          className="rounded-full"
+          className=""
         />
+        </Link>
       </div>
 
       <div className="flex items-center space-x-4">

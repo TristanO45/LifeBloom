@@ -42,18 +42,16 @@ function Mission(props) {
             couples, and families feel empowered to cultivate meaningful,
             long-lasting change in their lives. We are committed to working with
             clients to embrace their inherent capacity for growth and healing
-            whether it's in navigating relationships, working through life
-            transitions, or finding balance in other crucial life areas.
+            to in crucial life areas.
             <br />
             <br />
             We serve individuals and couples of all races, religions, sexual
             orientations, gender identities, origins, and ethnicities. Through a
             blend of compassionate counseling, evidence-based therapies, and
             personalized guidance, we strive to create a nurturing environment
-            where individuals, couples, and families are challenged to overcome
-            obstacles, break free from limiting patterns and beliefs, cultivate
-            deeper connections to themselves and to others, and flourish into
-            their fullest potential.
+            where individuals and couples are challenged to overcome
+            obstacles, to break free from limiting patterns and beliefs, and to cultivate
+            deeper, more meaningful connections to themselves and to others.
           </p>
 
           <div className="pt-8">
@@ -64,7 +62,7 @@ function Mission(props) {
                 <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
                 <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
                 <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-white opacity-0 group-hover:opacity-100"></span>
-                <span className="relative transition-colors duration-300 delay-200 group-hover:text-[#B1BCA0] ease">
+                <span className="relative transition-colors duration-300 delay-200 group-hover:text-[#6A6E59] ease">
                   Our Services
                 </span>
               </button>

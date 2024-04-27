@@ -8,7 +8,7 @@ function Homepage() {
       <Head>
         <title>LifeBloom Therapy</title>
         <meta name="description" content="Manually created Nextjs App" />
-        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.png" />
       </Head>
       <Layout />
     </>

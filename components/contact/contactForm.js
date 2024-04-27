@@ -261,7 +261,7 @@ function ContactForm(props) {
                 <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
                 <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
                 <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-white opacity-0 group-hover:opacity-100"></span>
-                <span className="relative transition-colors duration-300 delay-200 group-hover:text-[#B1BCA0] ease">
+                <span className="relative transition-colors duration-300 delay-200 group-hover:text-[#6A6E59] ease">
                   {buttonText}
                 </span>
               </button>

@@ -16,7 +16,7 @@ function ContactHeader(props) {
         />
       </div>
 
-      <div className="w-[95%] sm:w-[75%] bg-[#ae887b] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
+      <div className="w-[95%] sm:w-[70%] bg-[#c3c1ab] absolute bottom-10 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10 shadow-lg">
         <div className="w-[85%] py-24 mx-auto flex flex-col justify-center items-center text-center text-white space-y-8">
           <div className="flex flex-row">
             <h1 className="font-licorice mr-4 tracking-wide text-5xl sm:text-6xl md:text-7xl">
@@ -26,7 +26,7 @@ function ContactHeader(props) {
               an Appointment
             </span>
           </div>
-          <p className="text-lg sm:text-xl tracking-wide">
+          <p className="text-lg sm:text-l tracking-wide">
             To request an appointment or consultation, please complete the
             inquiry form below. We respond to each inquiry within 24-48 hours.
             If you do not see a response, please check your spam folder.

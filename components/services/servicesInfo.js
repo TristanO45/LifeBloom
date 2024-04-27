@@ -5,7 +5,10 @@ import Link from "next/link";
 
 function ServicesInfo(props) {
   return (
-    <section className="pt-12 lg:pt-0 flex flex-col items-center" id={props.id}>
+    <section
+      className="pt-12 lg:pt-20 flex flex-col items-center"
+      id={props.id}
+    >
       <div className="w-auto pb-16 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">
         <div className="w-full lg:w-1/2 lg:pt-8 space-y-4">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
@@ -13,23 +16,22 @@ function ServicesInfo(props) {
           </h1>
           <p className="tracking-wide pb-10">
             A common thread among people’s unique circumstance is the feeling of
-            being "lost" or "stuck." You might feel pain, hurt, and emotional
-            discomfort - and it may be difficult to identify the source of that
-            discomfort or pain. <br />
+            being "lost" or "stuck." This can be due to big life changes or
+            transitions (like moving to a new location, losing a loved one,
+            getting married,) or by disruptions in an important relationship,
+            your health, or your school or work life. <br />
             <br />
-            This can be due to growing pains, big life changes or transitions
-            (like losing a loved one, getting married, moving to a new location)
-            or by disruptions in an important relationship, your health, or your
-            school or work life. Other times you may not know or understand why
-            you’ve been feeling a bit depressed or anxious, or acting in ways
-            you don’t understand – there may not be a specific cause you can
-            identify. <br />
+            You might know exactly what you are hoping to work through and other
+            times you may not know or understand why you’ve been feeling a bit
+            depressed or anxious, or acting in ways that are not condusive to a
+            fulfilling life. <br />
             <br />
-            There is no “one size fits all” approach; you are a unique
-            individual made up of all your experiences and your relationships
-            with others. Together, you and your therapist will explore your
-            challenges, get to the root of them, and make a plan to help you
-            move forward
+            Therapy is a space to explore, process, and gain a deeper
+            understanding of our ourselves. There is no “one size fits all”
+            approach; you are a unique individual made up of all your
+            experiences and your relationships with others. Together, you and
+            your therapist will explore your challenges, get to the root of
+            them, and make a plan to help you move forward
           </p>
           <div className="container w-full h-auto mb-10 py- px-2 bg-[]">
             <div className="flex flex-col sm:flex-row text-black z-10">
@@ -91,11 +93,10 @@ function ServicesInfo(props) {
             <br />
             <br />
             Whether you’re in a long-term relationship or a new one,
-            contemplating a deeper commitment or already there, or exploring a
-            major transition in your relationship, we work with couples of all
-            genders and orientations who want to face their challenges with
-            honesty and compassion and build a secure base of connection and
-            trust.
+            contemplating a deeper commitment or already there, we work with
+            couples of all genders and orientations who want to face their
+            challenges with honesty and compassion and build a secure base of
+            connection and trust.
           </p>
           <div className="container w-full h-auto mb-10 py-5 px-2 bg-[white] shadow-md">
             <div className="flex flex-col sm:flex-row text-black z-10">
@@ -149,15 +150,13 @@ function ServicesInfo(props) {
             collaborative, and attentive to both theoretical and experiential
             components of the clinical work; in addition to focusing on issues
             centered around clients, we also explore and address the therapist
-            as a human being in the room. Supervision includes discussion, as
-            well as video or audio reviews. Group and individual supervision may
+            as a human being in the room. Group and individual supervision may
             be available.
             <br />
             <br />
             With years of experience in diverse settings, including community
-            mental health, partial hospitalization programs, and group and
-            private practice, we are here to guide you on your professional
-            journey.
+            mental health, partial hospitalization programs, group and private
+            practice, we are here to guide you on your professional journey.
             <br />
             <br />
             Please contact Keisha directly about possible supervision openings:

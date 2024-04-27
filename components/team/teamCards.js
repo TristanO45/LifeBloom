@@ -30,21 +30,21 @@ function TeamCards() {
               </div>
 
               <div className="pt-6 flex flex-col items-center">
-                <h2 className="text-lg lg:text-2xl font-tinos font-semibold">
+                <h2 className="text-lg lg:text-3xl font-tinos">
                   {name}
                 </h2>
-                <p className="py-1 pb-4 text-center text-sm">{title}</p>
+                <p className="py-1 text-center text-sm">{title}</p>
                 <p className="pt-3 font-bold text-xl font-tinos">
-                  Specializations
+                
                 </p>
-                <ul className="pt- pb-7 text-center">
+                <ul className="pt- pb-6 text-sm text-center">
                   {specializations.map((specialization, index) => (
                     <li key={index}>{specialization}</li>
                   ))}
                 </ul>
 
                 <Link href={path}>
-                  <button className="relative overflow-hidden px-6 sm:px-8 md:px-12 py-1 sm:py-2 text-lg sm:text-xl font-medium text-white bg-[#6a6e59] border rounded-md shadow-inner group">
+                  <button className="relative overflow-hidden px-6 sm:px-8 md:px-12 py-1 sm:py-2 text-lg sm:text-l font-medium text-white bg-[#6A6E59] border rounded-md shadow-inner group">
                     <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-white group-hover:w-full ease"></span>
                     <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-white group-hover:h-full ease"></span>
