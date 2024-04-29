@@ -5,10 +5,10 @@ import Link from "next/link";
 
 function Mission(props) {
   return (
-    <section className="pb-12 px-6 sm:px-14" id={props.id}>
-      <div className="container flex flex-col lg:flex-row items-center">
+    <section className="pb-12 px-6 flex justify-center " id={props.id}>
+      <div className="gap-10 flex flex-col lg:flex-row items-center justify-center">
         <Fade left>
-          <div className="sm:w-1/2 pb-6 sm:pb-0">
+          <div className="pb-6 sm:pb-0">
             <Image
               className="rounded-md"
               src={"/MissionImg.jpg"}
@@ -18,7 +18,7 @@ function Mission(props) {
             />
           </div>
         </Fade>
-        <div className="sm:w-1/2">
+        <div className="lg:w-1/2 text-center lg:text-start">
           <h1 className="font-tinos text-4xl sm:text-5xl md:text-6xl text-[#6A6E59]">
             We're so glad you found your way here.
           </h1>

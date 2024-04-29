@@ -4,10 +4,13 @@ import Image from "next/image";
 
 function AboutMe(props) {
   return (
-    <section className="bg-[#E7E5D9] py-10 px-6 sm:px-16" id={props.id}>
-      <div className="container gap-4 sm:gap-32 flex flex-col-reverse lg:flex-row pt-5">
-        <div className="sm:w-[80%] px-6 ">
-          <h1 className="text-5xl sm:text-6xl md:text-8xl text-black font-licorice">
+    <section
+      className="bg-[#E7E5D9] py-12 px-6 flex justify-center"
+      id={props.id}
+    >
+      <div className="gap-10 flex flex-col-reverse lg:flex-row items-center justify-center pt-5">
+        <div className="lg:w-1/2 text-center lg:text-start">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl text-black text-center font-licorice">
             Hi, I'm Keisha!
           </h1>
           <p className="text-black text-lg sm:text-xl pt-7">
@@ -48,7 +51,7 @@ function AboutMe(props) {
           </div>
         </div>
         <Fade left>
-          <div className="sm:w-1/2 pb-6 sm:pb-0">
+          <div className="pb-6 sm:pb-0">
             <Image
               className="rounded-sm"
               src={"/keisha3.jpg"}
