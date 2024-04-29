@@ -8,14 +8,15 @@ function ResourcesHeader() {
       <div className="w-full lg:h-[40vh] overflow-hidden flex items-center justify-center">
         <div className="opacity-90">
           <Image
-            src="/crisisHeader2.jpg"
-            alt="headerimg"
+            src="/crisisHeader.jpg"
+            alt="headerimg3"
             fill={true}
             style={{ objectFit: "cover" }}
+            priority={true}
           />
         </div>
-        <div className="relative w-full py-16 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center items-center">
-          <div className="w-full lg:w-1/2 flex flex-col items-center space-y-2 ">
+        <div className="relative w-full py-6 px-6 lg:gap-20 flex flex-col-reverse lg:flex-row justify-center items-center">
+          <div className="w-full lg:w-1/2 flex flex-col items-center pt-6 lg:pt-0 space-y-2 ">
             <h1 className="font-tinos tracking-wide pb-6 text-3xl sm:text-4xl md:text-5xl text-white ">
               Crisis Contacts
             </h1>
@@ -31,7 +32,7 @@ function ResourcesHeader() {
           <div>
             <Image
               className="rounded-sm"
-              src={"/newcrisis.jpg"}
+              src={"/crisisImg.jpg"}
               alt="resourcesImg"
               width={400}
               height={400}

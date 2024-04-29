@@ -1,17 +1,10 @@
-/**
- * @type {import('next').NextConfig}
- */
-
-require("dotenv").config();
-
 const nextConfig = {
   output: "export",
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
+  trailingSlash: true,
 };
 
-module.exports =  {
+module.exports = {
   ...nextConfig,
   env: {
     SERVICE_ID: process.env.SERVICE_ID,
@@ -19,7 +12,3 @@ module.exports =  {
     PUBLIC_KEY: process.env.PUBLIC_KEY,
   },
 };
-
-  
-
-

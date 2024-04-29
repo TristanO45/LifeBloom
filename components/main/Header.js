@@ -7,12 +7,15 @@ function Header(props) {
     <section className="relative">
       <div className="relative w-full h-[80vh] sm:h-screen opacity-90 overflow-hidden -mb-36">
         <Image
-          src="/headerImg2.jpg"
-          alt="headerimg"
-          className=""
+          src="/HeaderImg2.jpg"
+          alt="headerimg1"
           fill={true}
-          style={{ objectFit: "cover", marginTop: "-250px", transform: "scale(1.2)" }}
-          priority
+          style={{
+            objectFit: "cover",
+            marginTop: "-250px",
+            transform: "scale(1.2)",
+          }}
+          priority={true}
         />
       </div>
 
@@ -39,7 +42,7 @@ function Header(props) {
               <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-white opacity-0 group-hover:opacity-100"></span>
               <span className="relative transition-colors duration-300 delay-200 group-hover:text-[hsl(15,24%,58%)] ease">
                 Book a Consultation
-              </span> 
+              </span>
             </button>
           </a>
         </div>

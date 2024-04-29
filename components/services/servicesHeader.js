@@ -7,11 +7,11 @@ function ServicesHeader() {
     <section className="relative">
       <div className="w-full h-72 sm:h-[30vh] overflow-hidden">
         <Image
-          src="/crisisheader2.jpg"
-          alt="headerimg"
-          className=""
+          src="/crisisHeader.jpg"
+          alt="headerimg2"
           fill={true}
           style={{ objectFit: "cover" }}
+          priority={true}
         />
       </div>
       <div className="absolute flex items-center justify-center inset-0 z-10 ">

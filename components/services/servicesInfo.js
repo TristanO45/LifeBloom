@@ -9,8 +9,8 @@ function ServicesInfo(props) {
       className="pt-12 lg:pt-20 flex flex-col items-center"
       id={props.id}
     >
-      <div className="w-auto pb-16 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">
-        <div className="w-full lg:w-1/2 lg:pt-8 space-y-4">
+      <div className="w-auto pb-16 px-6 lg:gap-20 flex flex-col-reverse lg:flex-row justify-center">
+        <div className="w-full lg:w-1/2 pt-10 lg:pt-8 py-6">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Individual Therapy
           </h1>
@@ -33,7 +33,7 @@ function ServicesInfo(props) {
             your therapist will explore your challenges, get to the root of
             them, and make a plan to help you move forward
           </p>
-          <div className="container w-full h-auto mb-10 py- px-2 bg-[]">
+          <div className="container w-full h-auto mb-10 px-2">
             <div className="flex flex-col sm:flex-row text-black z-10">
               <div className="w-full sm:w-3/4 h-min">
                 <h1 className="font-licorice text-[#6a6e59] text-4xl sm:text-5xl lg:text-6xl px-5 pl-2 sm:pl-5 lg:pl-10">
@@ -53,7 +53,7 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-        <Fade right>
+        <Fade left ssrFadeout={true} duration={500}>
           <div className="pb-4 sm:px-0 flex justify-center">
             <Image
               className="rounded-sm"
@@ -66,8 +66,8 @@ function ServicesInfo(props) {
         </Fade>
       </div>
 
-      <div className="w-full bg-[#E7E5D9] pt-20 pb-20 px-6 gap-20 flex flex-col-reverse lg:flex-row-reverse justify-center ">
-        <div className="w-full lg:w-1/2 space-y-4">
+      <div className="w-full bg-[#E7E5D9] pt-20 pb-20 px-6 lg:gap-20 flex flex-col-reverse lg:flex-row-reverse justify-center">
+        <div className="w-full lg:w-1/2 py-6">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Couples Therapy
           </h1>
@@ -126,7 +126,13 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-        <Fade left>
+        <Fade
+          left
+          collapse={true}
+          ssrReveal={true}
+          ssrFadeout={true}
+          duration={500}
+        >
           <div className="pb-4 px-3 sm:px-0 flex justify-center">
             <Image
               className="rounded-sm"
@@ -139,12 +145,12 @@ function ServicesInfo(props) {
         </Fade>
       </div>
 
-      <div className="w-full pt-20 pb-5 px-6 gap-20 flex flex-col-reverse lg:flex-row justify-center">
-        <div className="lg:w-1/4 space-y-4">
+      <div className="w-full pt-20 pb-5 px-6 lg:gap-20 flex flex-col-reverse lg:flex-row justify-center">
+        <div className="lg:w-1/4 py-6">
           <h1 className="font-tinos tracking-wide pb-8 text-3xl sm:text-4xl md:text-5xl text-center text-black">
             Clinical Supervision for Therapists
           </h1>
-          <p className="tracking-wide pb-10">
+          <p className="tracking-wide pb-10 break-words">
             Clinical supervision opportunities with Keisha are available for
             pre-licensed clinicians. Supervision is trainee-centered,
             collaborative, and attentive to both theoretical and experiential

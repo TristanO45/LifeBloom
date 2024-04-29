@@ -11,12 +11,14 @@ function AboutMe(props) {
             Hi, I'm Keisha!
           </h1>
           <p className="text-black text-lg sm:text-xl pt-7">
-            Pronounced "kay-sha!" As a therapist and owner of LifeBloom Therapist, my goal is simple:
-            to provide a safe space where you can feel heard, supported, and
-            empowered to navigate life's many twists and turns. Seeing people
-            move from pain to openness, from disconnection to reconnection, from
-            breakdown to thriving again, has been such a privilege - I am so
-            deeply committed to and fulfilled by this work and it has been a great joy finding a team of therapists who share in that passion. 
+            Pronounced "kay-sha!" As a therapist and owner of LifeBloom Therapy,
+            my goal is simple: to provide a safe space where you can feel heard,
+            supported, and empowered to navigate life's many twists and turns.
+            Seeing people move from pain to openness, from disconnection to
+            reconnection, from breakdown to thriving again, has been such a
+            privilege - I am so deeply committed to and fulfilled by this work
+            and it has been a great joy finding a team of therapists who share
+            in that passion.
             <br />
             <br />
             When I'm not in the therapist's chair, you can probably find me
@@ -45,7 +47,7 @@ function AboutMe(props) {
             </a>
           </div>
         </div>
-        <Fade right>
+        <Fade left>
           <div className="sm:w-1/2 pb-6 sm:pb-0">
             <Image
               className="rounded-sm"

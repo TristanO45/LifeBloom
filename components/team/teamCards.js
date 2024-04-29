@@ -18,7 +18,6 @@ function TeamCards() {
                 <div className="transition-transform duration-500 group-hover:scale-105">
                   <Link href={path}>
                     <Image
-                      className=""
                       src={imgUrl}
                       alt="headshot"
                       width={500}
@@ -30,13 +29,9 @@ function TeamCards() {
               </div>
 
               <div className="pt-6 flex flex-col items-center">
-                <h2 className="text-lg lg:text-3xl font-tinos">
-                  {name}
-                </h2>
+                <h2 className="text-lg lg:text-3xl font-tinos">{name}</h2>
                 <p className="py-1 text-center text-sm">{title}</p>
-                <p className="pt-3 font-bold text-xl font-tinos">
-                
-                </p>
+                <p className="pt-3 font-bold text-xl font-tinos"></p>
                 <ul className="pt- pb-6 text-sm text-center">
                   {specializations.map((specialization, index) => (
                     <li key={index}>{specialization}</li>

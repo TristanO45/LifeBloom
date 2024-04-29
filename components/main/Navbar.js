@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 w-full flex justify-between items-center lg:px-36 px-10 py-4 bg-white text-black z-50">
-      <div className="flex items-center space-x-4">
+      <div className="flex-1 flex justify-start">
         {/* Navbar menu items (visible on desktop) */}
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuLeft.map((link, index) => (
@@ -38,20 +38,18 @@ export default function Navbar() {
           ))}
         </ul>
       </div>
-
-      <div>
+      <div className="flex justify-center">
         <Link href={"/"}>
-        <Image
-          src={"/logo.png"}
-          alt="logo"
-          width="130"
-          height="50"
-          className=""
-        />
+          <Image
+            src={"/logo.png"}
+            alt="logo"
+            width="130"
+            height="50"
+            className=""
+          />
         </Link>
       </div>
-
-      <div className="flex items-center space-x-4">
+      <div className="flex-1 flex justify-end">
         {/* Navbar menu items (visible on desktop) */}
         <ul className="hidden lg:flex space-x-4">
           {navbarMenuRight.map((link, index) => (
@@ -69,7 +67,6 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-
       {/* Hamburger menu (visible on mobile) */}
       {menuOpen && (
         <ul className="lg:hidden fixed top-16 right-4 bg-white p-4 space-y-2">
@@ -82,17 +79,6 @@ export default function Navbar() {
           ))}
         </ul>
       )}
-
-      {/* <div className="flex space-x-4">
-        {socialIcons.map((icons, index) => {
-          const { icon, url } = icons;
-          return (
-            <a href={url} target="_blank" key={index} rel="noreferrer">
-              {icon}
-            </a>
-          );
-        })}
-      </div> */}
     </nav>
   );
 }

@@ -5,19 +5,18 @@ import Link from "next/link";
 
 function Mission(props) {
   return (
-    <section className="py-20 px-6 sm:px-14" id={props.id}>
+    <section className="pb-12 px-6 sm:px-14" id={props.id}>
       <div className="container flex flex-col lg:flex-row items-center">
         <Fade left>
-        <div className="sm:w-1/2 pb-6 sm:pb-0">
-          <Image
-            className="rounded-md"
-            src={"/MissionImg.jpg"}
-            alt="logo"
-            width={600}
-            height={500}
-            priority
-          />
-        </div>
+          <div className="sm:w-1/2 pb-6 sm:pb-0">
+            <Image
+              className="rounded-md"
+              src={"/MissionImg.jpg"}
+              alt="logo"
+              width={600}
+              height={500}
+            />
+          </div>
         </Fade>
         <div className="sm:w-1/2">
           <h1 className="font-tinos text-4xl sm:text-5xl md:text-6xl text-[#6A6E59]">
@@ -41,16 +40,16 @@ function Mission(props) {
             At LifeBloom Therapy, we are devoted to helping individuals,
             couples, and families feel empowered to cultivate meaningful,
             long-lasting change in their lives. We are committed to working with
-            clients to embrace their inherent capacity for growth and healing
-            to in crucial life areas.
+            clients to embrace their inherent capacity for growth and healing to
+            in crucial life areas.
             <br />
             <br />
             We serve individuals and couples of all races, religions, sexual
             orientations, gender identities, origins, and ethnicities. Through a
             blend of compassionate counseling, evidence-based therapies, and
             personalized guidance, we strive to create a nurturing environment
-            where individuals and couples are challenged to overcome
-            obstacles, to break free from limiting patterns and beliefs, and to cultivate
+            where individuals and couples are challenged to overcome obstacles,
+            to break free from limiting patterns and beliefs, and to cultivate
             deeper, more meaningful connections to themselves and to others.
           </p>
 
