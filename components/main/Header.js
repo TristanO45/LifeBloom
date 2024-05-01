@@ -5,22 +5,22 @@ import Image from "next/image";
 function Header(props) {
   return (
     <section className="relative">
-      <div className="relative w-full h-[80vh] sm:h-screen opacity-90 overflow-hidden -mb-36">
+      <div className="relative w-full h-screen opacity-90 overflow-hidden">
         <Image
           src="/HeaderImg2.jpg"
           alt="headerimg1"
           fill={true}
           style={{
             objectFit: "cover",
-            marginTop: "-250px",
-            transform: "scale(1.2)",
+            marginTop: "-225px",
+            transform: "scale(1.3)",
           }}
           priority={true}
         />
       </div>
 
       <div
-        className="absolute inset-0 pb-44 flex flex-col justify-center items-center text-center text-white z-10 space-y-2 sm:space-y-5"
+        className="absolute inset-0 pb-20 lg:pb-0 flex flex-col justify-center items-center text-center text-white z-10 space-y-2 sm:space-y-5"
         style={{ width: "100%" }}
       >
         <h1 className="font-tinos text-4xl sm:text-6xl md:text-7xl tracking-normal">

@@ -17,9 +17,8 @@ function ServicesInfo(props) {
           <p className="tracking-wide pb-10">
             A common thread among people’s unique circumstance is the feeling of
             being "lost" or "stuck." This can be due to big life changes or
-            transitions (like moving to a new location, losing a loved one,
-            getting married,) or by disruptions in an important relationship,
-            your health, or your school or work life. <br />
+            transitions, or disruptions in an important relationship, your
+            health, or your school/work life. <br />
             <br />
             You might know exactly what you are hoping to work through and other
             times you may not know or understand why you’ve been feeling a bit
@@ -27,7 +26,7 @@ function ServicesInfo(props) {
             fulfilling life. <br />
             <br />
             Therapy is a space to explore, process, and gain a deeper
-            understanding of our ourselves. There is no “one size fits all”
+            understanding of ourselves. There is no “one size fits all”
             approach; you are a unique individual made up of all your
             experiences and your relationships with others. Together, you and
             your therapist will explore your challenges, get to the root of
@@ -53,7 +52,7 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-        <Fade left ssrFadeout={true} duration={500}>
+        <Fade left>
           <div className="pb-4 sm:px-0 flex justify-center">
             <Image
               className="rounded-sm"
@@ -126,13 +125,7 @@ function ServicesInfo(props) {
             </div>
           </div>
         </div>
-        <Fade
-          left
-          collapse={true}
-          ssrReveal={true}
-          ssrFadeout={true}
-          duration={500}
-        >
+        <Fade left>
           <div className="pb-4 px-3 sm:px-0 flex justify-center">
             <Image
               className="rounded-sm"

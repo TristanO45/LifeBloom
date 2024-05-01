@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Mission(props) {
   return (
-    <section className="pb-12 px-6 flex justify-center " id={props.id}>
+    <section className="h-full pb-12 px-6 flex justify-center" id={props.id}>
       <div className="gap-10 flex flex-col lg:flex-row items-center justify-center">
         <Fade left>
           <div className="pb-6 sm:pb-0">
@@ -40,8 +40,8 @@ function Mission(props) {
             At LifeBloom Therapy, we are devoted to helping individuals,
             couples, and families feel empowered to cultivate meaningful,
             long-lasting change in their lives. We are committed to working with
-            clients to embrace their inherent capacity for growth and healing to
-            in crucial life areas.
+            clients to embrace their inherent capacity for growth and healing in
+            crucial life areas.
             <br />
             <br />
             We serve individuals and couples of all races, religions, sexual

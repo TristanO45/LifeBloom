@@ -189,8 +189,8 @@ const faqData = [
     $225 per 50 minute sessions (Couples sessions) 
     
     <u>Associate Therapist Rates</u>
-    $150 per 50 minutes (Individual sessions)
-    $175 per 50 minute sessions (Couples sessions)
+    $135-$150 per 50 minutes (Individual sessions)
+    $$135-$175 per 50 minute sessions (Couples sessions)
     
     We offer a sliding scale on a limited basis for those that need it; please contact us to see if these slots are available. We encourage you to communicate openly with your therapist if you require assistance.`,
   },

@@ -12,7 +12,7 @@ function Stephanie() {
           <div className="pb-6 lg:pb-0">
             <Image
               className="rounded-sm"
-              src={"/stephanie.jpg"}
+              src={"/stephanie1.jpg"}
               alt="headshot"
               width={500}
               height={500}
@@ -25,28 +25,15 @@ function Stephanie() {
             <p className="text-black text-md sm:text-lg pt-2">
               Marriage & Family Therapist Associate, AMFT
               <br />
-              Stephanie@gmail.com | (818)532-5489
+              SLWickens@gmail.com | (818) 821-0936
             </p>
             <p className="pt-12 text-black text-lg sm:text-xl">
-              Taking this therapeutic journey is a bold step toward
-              self-discovery and healing, where your unique narrative and
-              experiences take center stage. Together, we'll explore the deep
-              and intricate connection between your mind and body, acknowledging
-              the profound impact this relationship has on your path to
-              wellness. Our collaboration will be rooted in empathy and respect,
-              focusing on drawing out the strengths that already lie within you
-              to face life's complexities. <br />
+            Hi and welcome! Starting therapy is a brave act of self-love, whether this is your first time or you are returning. I hope to join you on this journey, where your unique narrative and experiences take center stage. Being a human can be so challenging and confusing and I am here to help you make sense of it all. Together, we'll explore the patterns and beliefs that have made your life more difficult. I will help you discover how to make your life more balanced, purposeful, and joyful. <br />
               <br />
-              We'll work together to understand the patterns that have shaped
-              your experiences, transforming them into stepping stones toward a
-              more fulfilling and balanced life. This journey is about more than
-              just overcoming obstacles; it's about building a foundation for
-              lasting change.
+              I will assist you in using the strengths that already lie within you to effectively help you connect to your true self. We will explore the connection between your mind and body, and how they influence each other and work with your brain to develop neural connections that better suit your ideal life.
               <br />
               <br />
-              Let's embark on this new chapter together, creating a future where
-              you feel wholly empowered, deeply understood, and ready to embrace
-              the full spectrum of your life with hope and strength.
+              With empathy and skill, I will work along side you to create the reality you desire. I will always hold hope for you, even when it is hard to hold yourself. Let's embark on this new chapter together, creating a future where you feel empowered, deeply understood, and ready to embrace the full spectrum of your life with ambition and strength.
             </p>
           </div>
         </div>
@@ -61,7 +48,7 @@ function Stephanie() {
             <ul className="w-full pl-8 sm:pl-0 pt-3 sm:pt-0 mx-auto justify-center grid grid-cols-2 gap-x-8  gap-y-2 list-disc">
               <li>Addiction</li>
               <li>ADHD</li>
-              <li>Depression</li>
+              <li>Relationship Issues</li>
               <li>Anxiety</li>
               <li>Stress</li>
               <li>Trauma</li>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Layout from "./default";
 
 function Homepage() {
@@ -7,7 +6,7 @@ function Homepage() {
     <>
       <Head>
         <title>LifeBloom Therapy</title>
-        <meta name="description" content="Manually created Nextjs App" />
+        <meta name="description" content="Therapy Services in California" />
         <link rel="icon" href="/favicon/favicon.png" />
       </Head>
       <Layout />

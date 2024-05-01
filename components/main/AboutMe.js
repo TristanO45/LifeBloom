@@ -9,11 +9,11 @@ function AboutMe(props) {
       id={props.id}
     >
       <div className="gap-10 flex flex-col-reverse lg:flex-row items-center justify-center pt-5">
-        <div className="lg:w-1/2 text-center lg:text-start">
+        <div className="lg:w-1/2 text-center lg:text-start tracking-wide">
           <h1 className="text-5xl sm:text-6xl md:text-8xl text-black text-center font-licorice">
             Hi, I'm Keisha!
           </h1>
-          <p className="text-black text-lg sm:text-xl pt-7">
+          <p className="text-lg pt-7">
             Pronounced "kay-sha!" As a therapist and owner of LifeBloom Therapy,
             my goal is simple: to provide a safe space where you can feel heard,
             supported, and empowered to navigate life's many twists and turns.
