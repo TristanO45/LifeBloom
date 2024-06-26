@@ -25,7 +25,7 @@ function Keisha() {
             <p className="text-black text-md sm:text-lg pt-2">
               Marriage & Family Therapist, LMFT
               <br />
-              KeishaLibbrecht@gmail.com | (424)835-5752
+              Keisha@KeishaLibbrecht.com | (424)835-5752
             </p>
             <p className="pt-12 text-black text-lg sm:text-xl">
               You feel stuck emotionally, or feel anxious or depressed. You are

@@ -25,15 +25,31 @@ function Stephanie() {
             <p className="text-black text-md sm:text-lg pt-2">
               Marriage & Family Therapist Associate, AMFT
               <br />
-              SLWickens@gmail.com | (818) 821-0936
+              SLWickens2@gmail.com | (818) 821-0936
             </p>
             <p className="pt-12 text-black text-lg sm:text-xl">
-            Hi and welcome! Starting therapy is a brave act of self-love, whether this is your first time or you are returning. I hope to join you on this journey, where your unique narrative and experiences take center stage. Being a human can be so challenging and confusing and I am here to help you make sense of it all. Together, we'll explore the patterns and beliefs that have made your life more difficult. I will help you discover how to make your life more balanced, purposeful, and joyful. <br />
+              Hi and welcome! Starting therapy is a brave act of self-love,
+              whether this is your first time or you are returning. I hope to
+              join you on this journey, where your unique narrative and
+              experiences take center stage. Being a human can be so challenging
+              and confusing and I am here to help you make sense of it all.
+              Together, we'll explore the patterns and beliefs that have made
+              your life more difficult. I will help you discover how to make
+              your life more balanced, purposeful, and joyful. <br />
               <br />
-              I will assist you in using the strengths that already lie within you to effectively help you connect to your true self. We will explore the connection between your mind and body, and how they influence each other and work with your brain to develop neural connections that better suit your ideal life.
+              I will assist you in using the strengths that already lie within
+              you to effectively help you connect to your true self. We will
+              explore the connection between your mind and body, and how they
+              influence each other and work with your brain to develop neural
+              connections that better suit your ideal life.
               <br />
               <br />
-              With empathy and skill, I will work along side you to create the reality you desire. I will always hold hope for you, even when it is hard to hold yourself. Let's embark on this new chapter together, creating a future where you feel empowered, deeply understood, and ready to embrace the full spectrum of your life with ambition and strength.
+              With empathy and skill, I will work along side you to create the
+              reality you desire. I will always hold hope for you, even when it
+              is hard to hold yourself. Let's embark on this new chapter
+              together, creating a future where you feel empowered, deeply
+              understood, and ready to embrace the full spectrum of your life
+              with ambition and strength.
             </p>
           </div>
         </div>
@@ -47,11 +63,11 @@ function Stephanie() {
             </div>
             <ul className="w-full pl-8 sm:pl-0 pt-3 sm:pt-0 mx-auto justify-center grid grid-cols-2 gap-x-8  gap-y-2 list-disc">
               <li>Addiction</li>
-              <li>ADHD</li>
-              <li>Relationship Issues</li>
+              <li>Depression</li>
+              <li>Trauma</li>
               <li>Anxiety</li>
               <li>Stress</li>
-              <li>Trauma</li>
+              <li>Relationship Issues</li>
             </ul>
           </div>
           <div className="flex flex-col sm:flex-row items-center pt-10 sm:pt-0 text-black">

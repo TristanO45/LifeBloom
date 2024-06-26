@@ -20,10 +20,10 @@ function Kristina() {
           </div>
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-6xl text-black font-tinos">
-              Kristina Roman, ACSW
+              Kristina Roman, ASW
             </h1>
             <p className="text-black text-md sm:text-lg pt-2">
-              Clinical Social Worker/Therapist, ACSW
+              Clinical Social Worker/Therapist, ASW
               <br />
               KristinaRoseRoman@gmail.com | (424)501-5950
             </p>

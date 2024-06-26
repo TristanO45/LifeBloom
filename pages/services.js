@@ -8,8 +8,8 @@ function Services() {
   return (
     <>
       <Navbar />
-      <div className="">
-        <ServicesHeader id="services" />
+      <div id="services">
+        <ServicesHeader />
         <ServicesInfo />
       </div>
       <Footer />

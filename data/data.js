@@ -104,7 +104,7 @@ const ctaCards = [
 const teamCard = [
   {
     imgUrl: "/kristina.jpeg",
-    name: "Kristina Roman, ACSW",
+    name: "Kristina Roman, ASW",
     title: "Associate Therapist",
     specializations: ["Adults, Adolescents & Couples Therapy"],
     path: "./teamBio/kristina",
@@ -190,7 +190,7 @@ const faqData = [
     
     <u>Associate Therapist Rates</u>
     $135-$150 per 50 minutes (Individual sessions)
-    $$135-$175 per 50 minute sessions (Couples sessions)
+    $135-$175 per 50 minute sessions (Couples sessions)
     
     We offer a sliding scale on a limited basis for those that need it; please contact us to see if these slots are available. We encourage you to communicate openly with your therapist if you require assistance.`,
   },
