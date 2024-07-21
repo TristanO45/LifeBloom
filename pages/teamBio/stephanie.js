@@ -12,7 +12,7 @@ function Stephanie() {
           <div className="pb-6 lg:pb-0">
             <Image
               className="rounded-sm"
-              src={"/stephanie1.jpg"}
+              src={"/stephanie.jpg"}
               alt="headshot"
               width={500}
               height={500}

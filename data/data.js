@@ -103,7 +103,7 @@ const ctaCards = [
 
 const teamCard = [
   {
-    imgUrl: "/kristina.jpeg",
+    imgUrl: "/kristina.jpg",
     name: "Kristina Roman, ASW",
     title: "Associate Therapist",
     specializations: ["Adults, Adolescents & Couples Therapy"],
