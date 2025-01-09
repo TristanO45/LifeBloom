@@ -185,8 +185,8 @@ const faqData = [
   {
     question: "How much do sessions cost? (updated as of 2024)",
     answer: `<u>Licenced Therapist Rates</u> 
-    $200 per 50 minutes (Individual sessions) 
-    $225 per 50 minute sessions (Couples sessions) 
+    $225 per 50 minutes (Individual sessions) 
+    $250 per 50 minute sessions (Couples sessions)
     
     <u>Associate Therapist Rates</u>
     $135-$150 per 50 minutes (Individual sessions)

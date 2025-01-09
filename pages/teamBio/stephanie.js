@@ -28,28 +28,25 @@ function Stephanie() {
               SLWickens2@gmail.com | (818) 821-0936
             </p>
             <p className="pt-12 text-black text-lg sm:text-xl">
-              Hi and welcome! Starting therapy is a brave act of self-love,
-              whether this is your first time or you are returning. I hope to
-              join you on this journey, where your unique narrative and
-              experiences take center stage. Being a human can be so challenging
-              and confusing and I am here to help you make sense of it all.
-              Together, we'll explore the patterns and beliefs that have made
-              your life more difficult. I will help you discover how to make
-              your life more balanced, purposeful, and joyful. <br />
+              You feel stuck. Exhausted. No matter how hard you try, nothing
+              seems to be falling into place. Life isn’t what you thought it
+              would be, and you’re frustrated. Whether it’s relationships, work,
+              or just trying to keep it together, you feel like you’re falling
+              behind. But it doesn’t have to be this way. Therapy is a powerful
+              step toward making real changes, and I’m here to help you break
+              out of that cycle and build the life you want. <br />
               <br />
-              I will assist you in using the strengths that already lie within
-              you to effectively help you connect to your true self. We will
-              explore the connection between your mind and body, and how they
-              influence each other and work with your brain to develop neural
-              connections that better suit your ideal life.
+              You already have everything you need inside you. I’ll help you
+              unlock it. Together, we’ll figure out what’s been holding you back
+              and how to get your mind and body working together. This isn’t
+              about fixing you—it’s about finding the real you and building a
+              life that actually makes you happy.
               <br />
               <br />
-              With empathy and skill, I will work along side you to create the
-              reality you desire. I will always hold hope for you, even when it
-              is hard to hold yourself. Let's embark on this new chapter
-              together, creating a future where you feel empowered, deeply
-              understood, and ready to embrace the full spectrum of your life
-              with ambition and strength.
+              Life feels overwhelming, but you don’t have to do it alone. I’ll
+              hold hope for you, even when it’s hard for you to hold it
+              yourself. If you’re ready to stop feeling stuck and start making
+              moves, give me a call, and let’s make it happen.
             </p>
           </div>
         </div>
