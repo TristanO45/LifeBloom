@@ -29,7 +29,7 @@ function TeamCards() {
               </div>
 
               <div className="pt-6 flex flex-col items-center">
-                <h2 className="text-lg lg:text-3xl font-tinos">{name}</h2>
+                <h2 className="text-lg lg:text-2xl font-tinos">{name}</h2>
                 <p className="py-1 text-center text-sm">{title}</p>
                 <p className="pt-3 font-bold text-xl font-tinos"></p>
                 <ul className="pt- pb-6 text-sm text-center">

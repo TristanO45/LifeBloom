@@ -113,8 +113,29 @@ const teamCard = [
     imgUrl: "/stephanie.jpg",
     name: "Stephanie Wickens, AMFT",
     title: "Associate Therapist",
-    specializations: ["Adults, Adolescents & Couples Therapy"],
+    specializations: ["Adults, Adolescents, Couples Therapy"],
     path: "./teamBio/stephanie",
+  },
+  {
+    imgUrl: "/ErinHeadshot.png",
+    name: "Erin Aiko Schroeder, AMFT",
+    title: "Associate Therapist",
+    specializations: ["Adults, Adolescents, Couples therapy"],
+    path: "./teamBio/erin",
+  },
+  {
+    imgUrl: "/kristine.jpg",
+    name: "Kristine Singh, AMFT, APCC",
+    title: "Associate Therapist",
+    specializations: ["Adults, Adolescents, Couples therapy"],
+    path: "./teamBio/kristine",
+  },
+  {
+    imgUrl: "/KayleneHS.jpg",
+    name: "Kaylene Woo, AMFT",
+    title: "Associate Therapist",
+    specializations: ["Adults, Adolescents, Couples therapy"],
+    path: "./teamBio/kaylene",
   },
   {
     imgUrl: "/keishaHS.jpg",
@@ -186,7 +207,7 @@ const faqData = [
     question: "How much do sessions cost? (updated as of 2024)",
     answer: `<u>Licenced Therapist Rates</u> 
     $225 per 50 minutes (Individual sessions) 
-    $250 per 50 minute sessions (Couples sessions)
+    $275 per 50 minute sessions (Couples sessions)
     
     <u>Associate Therapist Rates</u>
     $135-$150 per 50 minutes (Individual sessions)
